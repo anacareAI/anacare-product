@@ -529,3 +529,25 @@ EPISODE_COSTS = {
         ],
     },
 }
+
+
+def uses_operating_room_style_charges(episode: dict) -> bool:
+    """
+    True for episodes modeled with OR-style facility splits, anesthesia, and revenue lines.
+    False for non-surgical management, standalone imaging, and other outpatient-style episodes.
+    """
+    explicit = episode.get("uses_operating_room_charges")
+    if explicit is False:
+        return False
+    if explicit is True:
+        return True
+    dn = (episode.get("display_name") or "").lower()
+    if "non-surgical" in dn:
+        return False
+    if (
+        not episode.get("preop")
+        and not episode.get("postop")
+        and not (episode.get("implant_cost") or 0)
+    ):
+        return False
+    return True

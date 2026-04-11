@@ -13,7 +13,7 @@ from backend.package_bundle import build_package_rows, ssp_code
 from backend.provider_identity import ProviderProvenance, canonical_provider_id
 from backend.procedure_map import resolve_episode_key
 from tools.compute_episode_oop import compute_episode_oop
-from tools.episode_costs import EPISODE_COSTS
+from tools.episode_costs import EPISODE_COSTS, uses_operating_room_style_charges
 
 _PROFILE_COLS_CACHE: Optional[dict[str, bool]] = None
 RATE_CALIBRATION = float(os.getenv("RATE_CALIBRATION", "1.30"))
@@ -425,6 +425,20 @@ def search_hospitals_for_procedure(
     }
 
     package_rows = build_package_rows(episode)
+    or_charges = uses_operating_room_style_charges(episode)
+    if or_charges:
+        clinical_summary = (
+            f"{episode['display_name']} bundles the primary service (CPT {cpt_code}) with typical "
+            "facility, professional, anesthesia when applicable, and support charges. Final cost depends on "
+            "the exact services performed, your benefits, and any complications."
+        )
+    else:
+        clinical_summary = (
+            f"{episode['display_name']} (CPT {cpt_code}) is shown as an outpatient-style episode: "
+            "professional (physician/clinician) and facility & technical (equipment, suite, staff) shares only—"
+            "no separate operating room, recovery room, or anesthesia line items. Pre- and post-service items "
+            "from the care pathway are listed separately when applicable."
+        )
     return {
         "procedure_id": procedure_id,
         "procedure_name": episode["display_name"],
@@ -434,11 +448,8 @@ def search_hospitals_for_procedure(
         "cash_pay": cash_pay,
         "include_benefits": include_benefits,
         "package_rows": package_rows,
-        "clinical_summary": (
-            f"{episode['display_name']} bundles the primary service (CPT {cpt_code}) with typical "
-            "facility, professional, and support charges. Final cost depends on "
-            "the exact services performed, your benefits, and any complications."
-        ),
+        "uses_operating_room_charges": or_charges,
+        "clinical_summary": clinical_summary,
         "nsa_timeline": [
             {"step": 1, "title": "Compare prices", "body": "Review this estimate and nearby providers to see how bundled costs vary."},
             {"step": 2, "title": "Request a Good Faith Estimate", "body": "Call the provider's billing office and reference your CPT / package codes under the No Surprises Act."},

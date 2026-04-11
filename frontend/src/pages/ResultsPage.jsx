@@ -14,7 +14,18 @@ const SORT_TABS = [
 
 const RADIUS_STEPS = [5, 10, 25, 50, 75, 100, 150, 200, 250]
 
-const DISTANCE_OPTIONS = [5, 10, 25, 50]
+/** Post-filter distances (subset of hospitals returned for the current search radius). */
+const DISTANCE_FILTER_PRESETS = [
+  { value: 10, label: 'Within 10 miles' },
+  { value: 25, label: 'Within 25 miles' },
+  { value: 50, label: 'Within 50 miles' },
+  { value: 75, label: 'Within 75 miles' },
+  { value: 100, label: 'Within 100 miles' },
+  { value: 150, label: 'Within 150 miles' },
+  { value: 200, label: 'Within 200 miles' },
+  { value: 250, label: 'Within 250 miles' },
+  { value: null, label: 'All distances' },
+]
 const QUALITY_OPTIONS = [
   { label: '2+', value: 2 },
   { label: '3+', value: 3 },
@@ -76,9 +87,20 @@ function radiusStepIndex(miles) {
   return closest
 }
 
-function RadiusSlider({ value, onChange, id }) {
+function RadiusSlider({ value, onChange, id, showBandQuickPicks = false }) {
   const idx = radiusStepIndex(value)
   const fillPct = (idx / (RADIUS_STEPS.length - 1)) * 100
+  const chipBase = {
+    border: '1px solid var(--border)',
+    background: 'var(--surface-2)',
+    color: 'var(--text)',
+    borderRadius: 999,
+    padding: '6px 12px',
+    fontSize: 12,
+    fontWeight: 600,
+    cursor: 'pointer',
+    fontFamily: 'inherit',
+  }
   return (
     <div style={{ width: '100%' }}>
       <div style={{
@@ -114,6 +136,29 @@ function RadiusSlider({ value, onChange, id }) {
           </span>
         ))}
       </div>
+      {showBandQuickPicks && (
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
+          {[
+            { label: '≤50 mi', miles: 50 },
+            { label: '51–250 mi', miles: 150 },
+            { label: '250+ mi', miles: 250 },
+          ].map((b) => (
+            <button
+              key={b.label}
+              type="button"
+              onClick={() => onChange(b.miles)}
+              style={{
+                ...chipBase,
+                borderColor: value === b.miles ? 'var(--accent)' : 'var(--border)',
+                background: value === b.miles ? 'var(--accent-soft)' : 'var(--surface-2)',
+                color: value === b.miles ? 'var(--accent)' : 'var(--text)',
+              }}
+            >
+              {b.label}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
@@ -772,6 +817,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
   const cptCode = apiMeta?.cpt_code || null
   const packageRows = apiMeta?.package_rows || []
   const nsaTimeline = apiMeta?.nsa_timeline || []
+  const usesOrCharges = apiMeta?.uses_operating_room_charges !== false
   const modeledPackagePrices = useMemo(() => {
     if (!packageRows.length || !selectedHospital) return []
     const neg = Number(negotiatedCost(selectedHospital) || 0)
@@ -787,24 +833,60 @@ export default function ResultsPage({ theme, onToggleTheme }) {
       explicitByCode.set(code, (explicitByCode.get(code) || 0) + Number(item.gross_cost || 0))
     })
 
-    const facilityPool = Number(surgeryItems.find((x) => x.name === 'Facility Fee')?.gross_cost ?? (neg * 0.55))
-    const professionalPool = Number(surgeryItems.find((x) => x.name === 'Surgeon Fee')?.gross_cost ?? (neg * 0.30))
-    const anesthesiaPool = Number(surgeryItems.find((x) => x.name === 'Anesthesia')?.gross_cost ?? (neg * 0.054))
+    const facSurg = surgeryItems.find((x) => /facility/i.test(x.name || '') && !/professional|surgeon/i.test(x.name || ''))
+    const profSurg = surgeryItems.find((x) => {
+      const n = String(x.name || '').toLowerCase()
+      return n.includes('surgeon') || n.includes('professional')
+    })
+    const anesSurg = surgeryItems.find((x) => /^anesthesia$/i.test(String(x.name || '').trim()))
+
+    const facilityPool = Number(
+      facSurg?.gross_cost ?? (usesOrCharges ? neg * 0.55 : neg * 0.65),
+    )
+    const professionalPool = Number(
+      profSurg?.gross_cost ?? (usesOrCharges ? neg * 0.30 : neg * 0.35),
+    )
+    let anesthesiaPool = Number(anesSurg?.gross_cost || 0)
+    if (anesthesiaPool <= 0 && usesOrCharges && surgeryItems.length) {
+      anesthesiaPool = neg * 0.054
+    }
     const totalEpisodeGross = lineItems.reduce((sum, row) => sum + Number(row?.gross_cost || 0), 0) || neg
     const otherPool = Math.max(0, totalEpisodeGross - facilityPool - professionalPool - anesthesiaPool)
 
     const classify = (row) => {
       const text = `${row.code_type || ''} ${row.description || ''}`.toLowerCase()
       if (text.includes('anesthesia')) return 'anesthesia'
-      if (text.includes('surgeon') || text.includes('professional') || text.includes('consult')) return 'professional'
+      if (text.includes('surgeon') || text.includes('professional')) return 'professional'
       if (text.includes('facility') || text.includes('technical') || text.includes('operating room') || text.includes('recovery room')) return 'facility'
+      if (text.includes('consult')) return 'professional'
       return 'other'
+    }
+
+    const explicitForRow = (row) => {
+      const code = String(row.code || '').trim().toUpperCase()
+      const desc = String(row.description || '').toLowerCase()
+      if (!code) return 0
+      const sameCptSurgery = surgeryItems.filter(
+        (s) => String(s.cpt || '').trim().toUpperCase() === code,
+      )
+      if (sameCptSurgery.length >= 2) {
+        if (desc.includes('professional') || desc.includes('surgeon')) {
+          return Number(
+            sameCptSurgery.find((s) => /professional|surgeon/i.test(s.name || ''))?.gross_cost || 0,
+          )
+        }
+        if (desc.includes('facility') || desc.includes('technical')) {
+          return Number(
+            sameCptSurgery.find((s) => /facility|technical/i.test(s.name || ''))?.gross_cost || 0,
+          )
+        }
+      }
+      return Number(explicitByCode.get(code) || 0)
     }
 
     const missingCounts = { facility: 0, professional: 0, anesthesia: 0, other: 0 }
     packageRows.forEach((row) => {
-      const code = String(row.code || '').trim().toUpperCase()
-      if (explicitByCode.get(code) > 0) return
+      if (explicitForRow(row) > 0) return
       missingCounts[classify(row)] += 1
     })
 
@@ -816,14 +898,13 @@ export default function ResultsPage({ theme, onToggleTheme }) {
     }
 
     return packageRows.map((row) => {
-      const code = String(row.code || '').trim().toUpperCase()
-      const explicit = Number(explicitByCode.get(code) || 0)
+      const explicit = explicitForRow(row)
       if (explicit > 0) return { ...row, modeled_price: explicit }
       const type = classify(row)
       const count = Math.max(1, missingCounts[type])
       return { ...row, modeled_price: poolByType[type] / count }
     })
-  }, [packageRows, selectedHospital, episodeDetail])
+  }, [packageRows, selectedHospital, episodeDetail, usesOrCharges])
 
   useEffect(() => {
     if (!selectedHospital?.ccn || !cptCode || isCashPay) {
@@ -867,7 +948,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
           <p style={{ color: 'var(--text-2)', marginBottom: 24 }}>
             Go back and select a procedure to see pricing results.
           </p>
-          <button type="button" onClick={() => navigate('/home', { state: backPrefillState })} style={{
+          <button type="button" onClick={() => navigate('/home', { state: readPersistedSearchState() })} style={{
             background: 'var(--accent)', color: 'var(--accent-text)',
             border: 'none', borderRadius: 'var(--radius-lg)', padding: '12px 28px',
             fontSize: 15, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit',
@@ -901,7 +982,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
         lat: searchLocation.lat ?? searchState.location?.lat ?? null,
         lng: searchLocation.lng ?? searchState.location?.lng ?? null,
         zip: searchLocation.zip || searchState.location?.zip || '',
-        radius_miles: 25,
+        radius_miles: radiusMiles,
       },
       plan: selectedInsurance || searchState.plan || null,
     },
@@ -915,7 +996,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
         lat: searchLocation.lat,
         lng: searchLocation.lng,
         zip: searchLocation.zip,
-        radius_miles: 25,
+        radius_miles: radiusMiles,
       },
       plan: {
         plan_id: selectedInsurance?.plan_id || null,
@@ -1581,22 +1662,26 @@ export default function ResultsPage({ theme, onToggleTheme }) {
                   setPriceOpen(false)
                 }}
               >
-                <span>{distanceFilter ? `Within ${distanceFilter} miles` : 'Within 50 miles'}</span>
+                <span>
+                  {distanceFilter != null
+                    ? DISTANCE_FILTER_PRESETS.find((p) => p.value === distanceFilter)?.label || `Within ${distanceFilter} miles`
+                    : `All distances · search ${radiusMiles >= 250 ? '250+' : radiusMiles} mi`}
+                </span>
                 <span>⌄</span>
               </button>
               {distanceOpen && (
                 <div className="filter-popover">
-                  {DISTANCE_OPTIONS.map((d) => (
+                  {DISTANCE_FILTER_PRESETS.map((p) => (
                     <button
-                      key={d}
+                      key={String(p.value)}
                       type="button"
-                      onClick={() => setDistanceFilterDraft(d)}
+                      onClick={() => setDistanceFilterDraft(p.value)}
                       style={{
                         display: 'block', width: '100%', textAlign: 'left', border: 'none', background: 'transparent',
                         padding: '8px 8px', borderRadius: 8, cursor: 'pointer', fontFamily: 'inherit', color: 'var(--text)',
                       }}
                     >
-                      Within {d} miles {distanceFilterDraft === d ? '•' : ''}
+                      {p.label} {distanceFilterDraft === p.value ? '•' : ''}
                     </button>
                   ))}
                   <div style={{ display: 'flex', gap: 8, marginTop: 10 }}>
@@ -1972,6 +2057,75 @@ export default function ResultsPage({ theme, onToggleTheme }) {
             })}
           </div>
         </div>
+
+        <div
+          style={{
+            marginBottom: 14,
+            padding: '12px 14px',
+            borderRadius: 'var(--radius-lg)',
+            border: '1px solid var(--border)',
+            background: 'var(--surface-2)',
+          }}
+        >
+          <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-3)', marginBottom: 8 }}>
+            Search radius (updates results)
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center' }}>
+            {RADIUS_STEPS.map((m) => (
+              <button
+                key={m}
+                type="button"
+                onClick={() => {
+                  setRadiusMiles(m)
+                  setVisibleCount(20)
+                }}
+                style={{
+                  border: `1px solid ${radiusMiles === m ? 'var(--accent)' : 'var(--border)'}`,
+                  background: radiusMiles === m ? 'var(--accent-soft)' : 'var(--surface)',
+                  color: radiusMiles === m ? 'var(--accent)' : 'var(--text-2)',
+                  borderRadius: 999,
+                  padding: '6px 11px',
+                  fontSize: 12,
+                  fontWeight: radiusMiles === m ? 700 : 500,
+                  cursor: 'pointer',
+                  fontFamily: 'inherit',
+                }}
+              >
+                {m === 250 ? '250+' : `${m}`}
+              </button>
+            ))}
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 10 }}>
+            {[
+              { label: '≤50 mi', miles: 50 },
+              { label: '51–250 mi', miles: 150 },
+              { label: '250+ mi', miles: 250 },
+            ].map((b) => (
+              <button
+                key={b.label}
+                type="button"
+                onClick={() => {
+                  setRadiusMiles(b.miles)
+                  setVisibleCount(20)
+                }}
+                style={{
+                  border: '1px solid var(--border)',
+                  background: 'var(--surface)',
+                  color: 'var(--text)',
+                  borderRadius: 8,
+                  padding: '8px 12px',
+                  fontSize: 12,
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  fontFamily: 'inherit',
+                }}
+              >
+                {b.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {!isCashPay && (
           <div style={{
             marginBottom: 14,
@@ -2049,6 +2203,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
                 id="best-value-radius"
                 value={radiusMiles}
                 onChange={setRadiusMiles}
+                showBandQuickPicks
               />
             </div>
           </div>
@@ -2759,7 +2914,9 @@ export default function ResultsPage({ theme, onToggleTheme }) {
             <div style={{ fontSize: 13, color: 'var(--text-2)', lineHeight: 1.7 }}>
               <p>
                 We model the episode using this hospital&apos;s negotiated package rate as the baseline for the selected CPT.
-                Surgery components are allocated into facility/professional/anesthesia shares and combined with expected pre-op and post-op items.
+                {(apiMeta?.uses_operating_room_charges ?? episodeDetail?.uses_operating_room_charges ?? true)
+                  ? ' Surgical-style episodes split into facility, professional (surgeon), and anesthesia shares, then combine with expected pre-op and post-op items.'
+                  : ' This outpatient-style episode uses facility & technical and professional (physician) shares only—no separate operating-room, recovery, or anesthesia line items—plus any pre- and post-service items in the pathway.'}
               </p>
               <p>
                 Patient responsibility is then computed in sequence: deductible is consumed first, then coinsurance is applied to remaining eligible charges,
@@ -2891,16 +3048,16 @@ export default function ResultsPage({ theme, onToggleTheme }) {
 
             <div className="filter-modal-section">
               <div style={{ fontSize: 20, lineHeight: 1, fontWeight: 700, color: 'var(--text)', marginBottom: 14 }}>Distance</div>
-              {DISTANCE_OPTIONS.map((distance) => (
-                <label key={distance} className="filter-option">
+              {DISTANCE_FILTER_PRESETS.map((p) => (
+                <label key={String(p.value)} className="filter-option">
                   <input
                     type="radio"
                     name="distance-filter"
-                    checked={distanceFilter === distance}
-                    onChange={() => setDistanceFilter(distance)}
+                    checked={distanceFilter === p.value}
+                    onChange={() => setDistanceFilter(p.value)}
                     style={{ width: 18, height: 18 }}
                   />
-                  <span>Within {distance} miles</span>
+                  <span>{p.label}</span>
                 </label>
               ))}
             </div>
@@ -3210,6 +3367,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
                 id="modal-radius"
                 value={modalRadius}
                 onChange={setModalRadius}
+                showBandQuickPicks
               />
             </div>
             <div style={{ display: 'flex', gap: 10, justifyContent: 'center' }}>

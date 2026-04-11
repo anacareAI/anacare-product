@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from backend.db import init_pool, is_json_mode, json_search_hospitals
 from backend.hospital_search_service import search_hospitals_for_procedure
-from tools.episode_costs import EPISODE_COSTS
+from tools.episode_costs import EPISODE_COSTS, uses_operating_room_style_charges
 from tools.compute_episode_oop import compute_episode_oop
 
 load_dotenv()
@@ -598,6 +598,7 @@ def get_episode(
         "cpt_code": cpt_code,
         "negotiated_rate": negotiated_rate,
         "episode": base_result,
+        "uses_operating_room_charges": uses_operating_room_style_charges(episode),
         "complication_episode": None,
         "complication_rate": None,
         "complication_national_avg": None,

@@ -6,7 +6,7 @@ Tracks deductible and OOP max across all phases (pre-op, surgery, post-op)
 with proper handling of Rx copays, coinsurance, and OOP cap.
 """
 
-from tools.episode_costs import EPISODE_COSTS
+from tools.episode_costs import EPISODE_COSTS, uses_operating_room_style_charges
 
 
 def compute_episode_oop(
@@ -94,26 +94,47 @@ def compute_episode_oop(
     preop_items = [process_item(item) for item in episode.get("preop", [])]
     preop_oop = sum(i["your_cost"] for i in preop_items)
 
-    facility_pct = 0.55
-    surgeon_pct = 0.30
-    anesthesia_pct_of_surgeon = 0.18
     implant_cost = episode.get("implant_cost", 0)
+    or_style = uses_operating_room_style_charges(episode)
 
-    facility_cost = negotiated_rate * facility_pct
-    surgeon_cost = negotiated_rate * surgeon_pct
-    anesthesia_cost = surgeon_cost * anesthesia_pct_of_surgeon
-    total_surgery_gross = facility_cost + surgeon_cost + anesthesia_cost + implant_cost
+    surgery_items: list[dict] = []
 
-    surgery_items = []
+    if or_style:
+        facility_pct = 0.55
+        surgeon_pct = 0.30
+        anesthesia_pct_of_surgeon = 0.18
 
-    surgery_items.append({"name": "Facility Fee", "cpt": episode["cpt_primary"], "qty": 1,
-                          "gross_cost": round(facility_cost, 2), "your_cost": 0.0})
+        facility_cost = negotiated_rate * facility_pct
+        surgeon_cost = negotiated_rate * surgeon_pct
+        anesthesia_cost = surgeon_cost * anesthesia_pct_of_surgeon
 
-    surgery_items.append({"name": "Surgeon Fee", "cpt": episode["cpt_primary"], "qty": 1,
-                          "gross_cost": round(surgeon_cost, 2), "your_cost": 0.0})
+        surgery_items.append({"name": "Facility Fee", "cpt": episode["cpt_primary"], "qty": 1,
+                              "gross_cost": round(facility_cost, 2), "your_cost": 0.0})
 
-    surgery_items.append({"name": "Anesthesia", "cpt": "01402", "qty": 1,
-                          "gross_cost": round(anesthesia_cost, 2), "your_cost": 0.0})
+        surgery_items.append({"name": "Surgeon Fee", "cpt": episode["cpt_primary"], "qty": 1,
+                              "gross_cost": round(surgeon_cost, 2), "your_cost": 0.0})
+
+        anes_cpt = "01402"
+        surgery_items.append({"name": "Anesthesia", "cpt": anes_cpt, "qty": 1,
+                              "gross_cost": round(anesthesia_cost, 2), "your_cost": 0.0})
+    else:
+        # Outpatient / imaging / non-surgical: no OR or separate anesthesia line
+        facility_cost = negotiated_rate * 0.65
+        professional_cost = negotiated_rate * 0.35
+        surgery_items.append({
+            "name": "Facility & technical",
+            "cpt": episode["cpt_primary"],
+            "qty": 1,
+            "gross_cost": round(facility_cost, 2),
+            "your_cost": 0.0,
+        })
+        surgery_items.append({
+            "name": "Professional (physician)",
+            "cpt": episode["cpt_primary"],
+            "qty": 1,
+            "gross_cost": round(professional_cost, 2),
+            "your_cost": 0.0,
+        })
 
     if implant_cost > 0:
         surgery_items.append({"name": "Implant", "cpt": "implant", "qty": 1,

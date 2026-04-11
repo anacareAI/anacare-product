@@ -6,27 +6,41 @@ Each row has: code, code_type, description — using real CPT, HCPCS, and Revenu
 from __future__ import annotations
 from typing import Any
 
+from tools.episode_costs import uses_operating_room_style_charges
+
 
 def build_package_rows(episode: dict[str, Any]) -> list[dict[str, str]]:
     """Build Turquoise-style package rows with real billing codes."""
     rows: list[dict[str, str]] = []
     cpt = episode["cpt_primary"]
     title = episode["display_name"]
+    or_style = uses_operating_room_style_charges(episode)
 
-    # Primary procedure code
-    rows.append({"code": cpt, "code_type": "CPT", "description": f"{title} — Surgeon / Professional"})
-    rows.append({"code": cpt, "code_type": "CPT", "description": f"{title} — Facility / Technical"})
+    # Primary procedure — wording differs for outpatient / non-surgical vs OR-based procedures
+    if or_style:
+        rows.append({"code": cpt, "code_type": "CPT", "description": f"{title} — Surgeon / Professional"})
+        rows.append({"code": cpt, "code_type": "CPT", "description": f"{title} — Facility / Technical"})
+    else:
+        rows.append({
+            "code": cpt,
+            "code_type": "CPT",
+            "description": f"{title} — Professional fee (physician / clinician)",
+        })
+        rows.append({
+            "code": cpt,
+            "code_type": "CPT",
+            "description": f"{title} — Facility & technical (equipment, suite, staff)",
+        })
 
-    # Anesthesia code (derived from primary CPT)
-    anes_code = _anesthesia_code(cpt)
-    if anes_code:
-        rows.append({"code": anes_code, "code_type": "CPT", "description": "Anesthesia"})
-
-    # Revenue codes for facility charges
-    rows.append({"code": "0360", "code_type": "Revenue", "description": "Operating Room Services"})
-    rows.append({"code": "0710", "code_type": "Revenue", "description": "Recovery Room"})
-    rows.append({"code": "0250", "code_type": "Revenue", "description": "Pharmacy"})
-    rows.append({"code": "0270", "code_type": "Revenue", "description": "Medical/Surgical Supplies"})
+    # Anesthesia + OR revenue lines apply to surgical / procedural episodes only
+    if or_style:
+        anes_code = _anesthesia_code(cpt)
+        if anes_code:
+            rows.append({"code": anes_code, "code_type": "CPT", "description": "Anesthesia"})
+        rows.append({"code": "0360", "code_type": "Revenue", "description": "Operating Room Services"})
+        rows.append({"code": "0710", "code_type": "Revenue", "description": "Recovery Room"})
+        rows.append({"code": "0250", "code_type": "Revenue", "description": "Pharmacy"})
+        rows.append({"code": "0270", "code_type": "Revenue", "description": "Medical/Surgical Supplies"})
 
     # Pre-operative items with real codes
     for item in episode.get("preop", []):
