@@ -1,0 +1,167 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "mammogram",
+  "procedureName": "Mammogram",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 159
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 244
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 244
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 244
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 244
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 248
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 248
+    },
+    {
+      "name": "El Camino Health - Los Gatos Hospital",
+      "city": "Los Gatos",
+      "state": "CA",
+      "distance": 16,
+      "estimatedOop": 301
+    },
+    {
+      "name": "El Camino Health - Mountain View Hospital",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 6,
+      "cmsStars": 4,
+      "estimatedOop": 301
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 323
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 355
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 355
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 355
+    },
+    {
+      "name": "Sequoia Hospital",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 7,
+      "cmsStars": 5,
+      "estimatedOop": 403
+    },
+    {
+      "name": "South San Francisco Medical Center",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 442
+    },
+    {
+      "name": "Oakland Medical Center",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27,
+      "cmsStars": 3,
+      "estimatedOop": 442
+    },
+    {
+      "name": "Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 31,
+      "cmsStars": 2,
+      "estimatedOop": 442
+    },
+    {
+      "name": "San Jose Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 442
+    },
+    {
+      "name": "Antioch Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 4,
+      "estimatedOop": 442
+    },
+    {
+      "name": "Fremont Medical Center",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 442
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:02:29.645Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/mammogram_94303.png"
+}

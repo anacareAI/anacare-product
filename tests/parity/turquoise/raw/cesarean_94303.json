@@ -1,0 +1,58 @@
+{
+  "category": "Obstetrics",
+  "procedureId": "cesarean",
+  "procedureName": "Delivery - Cesarean",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 44737
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 52819
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 52819
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 52819
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 52819
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 157956
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:04:18.709Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/cesarean_94303.png"
+}

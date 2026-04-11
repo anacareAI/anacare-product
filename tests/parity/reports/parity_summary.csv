@@ -1,0 +1,67 @@
+category,procedure_id,zip,status,provider_parity,package_parity,network_parity,pricing_ballpark_parity,missing_count,extra_count,ranking_diffs
+Musculoskeletal,ankle_arthro,94303,PARTIAL,94.12,100,100,69.23,1,39,16
+Musculoskeletal,ankle_arthro,60637,PARTIAL,100,100,100,25,0,63,18
+Musculoskeletal,finger_fracture,94303,PARTIAL,90,100,100,0,2,31,18
+Musculoskeletal,finger_fracture,60637,PARTIAL,94.44,100,100,0,1,63,16
+Musculoskeletal,clavicle_repair,94303,PARTIAL,100,100,100,35.29,0,29,20
+Musculoskeletal,clavicle_repair,60637,PARTIAL,95,100,100,35.29,1,61,17
+Musculoskeletal,wrist_repair,94303,PARTIAL,100,100,100,12.5,0,32,17
+Musculoskeletal,wrist_repair,60637,PARTIAL,100,100,100,0,0,62,17
+Musculoskeletal,hip_arthro,94303,PARTIAL,94.74,100,100,46.67,1,36,18
+Musculoskeletal,hip_arthro,60637,PARTIAL,100,100,100,18.18,0,70,13
+Musculoskeletal,knee_arthro,94303,PARTIAL,95,100,100,31.25,1,38,18
+Musculoskeletal,knee_arthro,60637,PARTIAL,90,100,100,38.89,2,65,18
+Musculoskeletal,shoulder_arthro,94303,PARTIAL,85,100,100,53.33,3,39,17
+Musculoskeletal,shoulder_arthro,60637,PARTIAL,90,100,100,37.5,2,65,18
+Radiology & Imaging,breast_mri,94303,PARTIAL,94.12,100,100,26.67,1,41,14
+Radiology & Imaging,breast_mri,60637,PARTIAL,94.44,100,100,18.75,1,82,17
+Radiology & Imaging,breast_ultrasound,94303,PARTIAL,100,100,100,22.22,0,40,19
+Radiology & Imaging,breast_ultrasound,60637,PARTIAL,100,100,100,0,0,80,18
+Radiology & Imaging,ct,94303,PARTIAL,100,100,100,38.89,0,46,18
+Radiology & Imaging,ct,60637,PARTIAL,100,100,100,22.22,0,93,18
+Radiology & Imaging,ct_abdomen_pelvis,94303,PARTIAL,94.74,100,100,35.29,1,49,18
+Radiology & Imaging,ct_abdomen_pelvis,60637,PARTIAL,100,100,100,21.05,0,89,20
+Radiology & Imaging,fetal_mri,94303,PARTIAL,100,100,100,17.65,0,41,19
+Radiology & Imaging,fetal_mri,60637,PARTIAL,100,100,100,5.26,0,79,20
+Radiology & Imaging,mammogram,94303,PASS,95,100,100,47.06,1,48,19
+Radiology & Imaging,mammogram,60637,PARTIAL,100,100,100,5.88,0,91,18
+Radiology & Imaging,mri_contrast,94303,PARTIAL,100,100,100,38.89,0,39,19
+Radiology & Imaging,mri_contrast,60637,PARTIAL,100,100,100,11.76,0,81,18
+Radiology & Imaging,mri_no_contrast,94303,PARTIAL,100,100,100,27.78,0,39,19
+Radiology & Imaging,mri_no_contrast,60637,PARTIAL,100,100,100,5.56,0,80,18
+Radiology & Imaging,ultrasound,94303,PARTIAL,94.44,100,100,60,1,50,17
+Radiology & Imaging,ultrasound,60637,PASS,100,100,100,40,0,90,20
+Radiology & Imaging,xray,94303,PARTIAL,94.74,100,100,31.25,1,49,18
+Radiology & Imaging,xray,60637,PARTIAL,100,100,100,35.29,0,93,18
+Gastrointestinal,colonoscopy,94303,PARTIAL,100,100,100,23.53,0,48,18
+Gastrointestinal,colonoscopy,60637,PARTIAL,95,100,100,0,1,81,19
+Gastrointestinal,colonoscopy_stoma,94303,PARTIAL,90,100,100,41.18,2,47,18
+Gastrointestinal,colonoscopy_stoma,60637,PARTIAL,100,100,100,5.26,0,78,20
+Gastrointestinal,egd,94303,PARTIAL,94.44,100,100,56.25,1,49,17
+Gastrointestinal,egd,60637,PARTIAL,100,100,100,21.05,0,79,19
+Gastrointestinal,hernia_lap,94303,PARTIAL,90,100,100,18.75,2,45,18
+Gastrointestinal,hernia_lap,60637,PARTIAL,95,100,100,29.41,1,79,18
+Gastrointestinal,hernia_open,94303,PARTIAL,100,100,100,35.29,0,43,20
+Gastrointestinal,hernia_open,60637,PASS,100,100,100,42.11,0,79,20
+Obstetrics,cesarean,94303,PARTIAL,100,100,100,0,0,43,6
+Obstetrics,cesarean,60637,PARTIAL,94.74,100,100,41.67,1,62,18
+Obstetrics,vaginal_delivery,94303,PARTIAL,100,100,100,0,0,43,6
+Obstetrics,vaginal_delivery,60637,PARTIAL,95,100,100,15.38,1,61,19
+Reproductive,hysteroscopy,94303,PARTIAL,100,100,100,23.53,0,37,19
+Reproductive,hysteroscopy,60637,PARTIAL,100,100,100,33.33,0,63,20
+Reproductive,lap_ovary,94303,PARTIAL,85,100,100,6.25,3,32,16
+Reproductive,lap_ovary,60637,PARTIAL,85,100,100,21.43,3,63,17
+ENT,tonsil_child,94303,PARTIAL,90,100,100,43.75,2,47,18
+ENT,tonsil_child,60637,PARTIAL,100,100,100,31.25,0,83,20
+ENT,tonsil,94303,PARTIAL,90,100,100,50,2,44,18
+ENT,tonsil,60637,PARTIAL,100,100,100,27.78,0,80,20
+Ophthalmology,cataract,94303,PARTIAL,90,100,100,6.25,2,45,17
+Ophthalmology,cataract,60637,PASS,95,100,100,55.56,1,78,18
+Pulmonary,bronchoscopy,94303,PARTIAL,100,100,100,29.41,0,44,18
+Pulmonary,bronchoscopy,60637,PARTIAL,95,100,100,11.11,1,82,19
+Neurology,carpal_tunnel,94303,PARTIAL,90,100,100,62.5,2,44,18
+Neurology,carpal_tunnel,60637,PARTIAL,100,100,100,38.89,0,79,20
+Diagnostic,fna_biopsy,94303,PARTIAL,94.44,100,100,37.5,1,47,17
+Diagnostic,fna_biopsy,60637,PARTIAL,88.24,100,100,7.14,2,84,15
+Diagnostic,breast_biopsy,94303,PARTIAL,94.12,100,100,50,1,49,15
+Diagnostic,breast_biopsy,60637,PASS,100,100,100,47.06,0,79,17

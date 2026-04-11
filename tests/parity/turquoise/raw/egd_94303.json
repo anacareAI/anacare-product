@@ -1,0 +1,164 @@
+{
+  "category": "Gastrointestinal",
+  "procedureId": "egd",
+  "procedureName": "Esophagogastroduodenoscopy, Simple",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 742
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 869
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 869
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 869
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 869
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 959
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 1456
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1456
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 1612
+    },
+    {
+      "name": "AHMC Seton Medical Center",
+      "city": "Daly City",
+      "state": "CA",
+      "distance": 24,
+      "cmsStars": 1,
+      "estimatedOop": 1943
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 2390
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 2390
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 2390
+    },
+    {
+      "name": "Watsonville Community Hospital",
+      "city": "Watsonville",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 1,
+      "estimatedOop": 2393
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 2503
+    },
+    {
+      "name": "Richmond Medical Center",
+      "city": "Richmond",
+      "state": "CA",
+      "distance": 36,
+      "estimatedOop": 3376
+    },
+    {
+      "name": "San Francisco Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29,
+      "cmsStars": 4,
+      "estimatedOop": 3376
+    },
+    {
+      "name": "Vallejo Medical Center",
+      "city": "Vallejo",
+      "state": "CA",
+      "distance": 48,
+      "cmsStars": 3,
+      "estimatedOop": 3376
+    },
+    {
+      "name": "Santa Clara Medical Center",
+      "city": "Santa Clara",
+      "state": "CA",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 3376
+    },
+    {
+      "name": "San Rafael Medical Center",
+      "city": "San Rafael",
+      "state": "CA",
+      "distance": 45,
+      "cmsStars": 4,
+      "estimatedOop": 3376
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:46.066Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/egd_94303.png"
+}

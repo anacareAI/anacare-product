@@ -1,0 +1,170 @@
+{
+  "category": "Diagnostic",
+  "procedureId": "fna_biopsy",
+  "procedureName": "Fine Needle Aspiration Biopsy with Ultrasound Guidance",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 124
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth La Grange",
+      "city": "La Grange",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 4,
+      "estimatedOop": 225
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Hinsdale",
+      "city": "Hinsdale",
+      "state": "IL",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 225
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Bolingbrook",
+      "city": "Bolingbrook",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 225
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 431
+    },
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 460
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 522
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 522
+    },
+    {
+      "name": "Rush Oak Park Hospital",
+      "city": "Oak Park",
+      "state": "IL",
+      "distance": 13,
+      "cmsStars": 4,
+      "estimatedOop": 550
+    },
+    {
+      "name": "Franciscan Health Michigan City",
+      "city": "Michigan City",
+      "state": "IN",
+      "distance": 37,
+      "cmsStars": 3,
+      "estimatedOop": 574
+    },
+    {
+      "name": "Ascension Saint Joseph Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 600
+    },
+    {
+      "name": "Franciscan Health Munster",
+      "city": "Munster",
+      "state": "IN",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 644
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 660
+    },
+    {
+      "name": "Franciscan Health Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 680
+    },
+    {
+      "name": "UChicago Medicine Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 29,
+      "estimatedOop": 700
+    },
+    {
+      "name": "UChicago Medicine Ingalls Memorial Hospital",
+      "city": "Harvey",
+      "state": "IL",
+      "distance": 12,
+      "cmsStars": 2,
+      "estimatedOop": 715
+    },
+    {
+      "name": "Advocate Good Shepherd Hospital",
+      "city": "Barrington",
+      "state": "IL",
+      "distance": 41,
+      "cmsStars": 4,
+      "estimatedOop": 770
+    },
+    {
+      "name": "Franciscan Health Dyer",
+      "city": "Dyer",
+      "state": "IN",
+      "distance": 20,
+      "cmsStars": 2,
+      "estimatedOop": 776
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth GlenOaks",
+      "city": "Glendale Heights",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 3,
+      "estimatedOop": 787
+    },
+    {
+      "name": "Advocate Illinois Masonic Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 3,
+      "estimatedOop": 795
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:06:02.219Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/fna_biopsy_60637.png"
+}

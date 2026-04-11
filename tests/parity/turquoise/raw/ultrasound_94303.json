@@ -1,0 +1,163 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "ultrasound",
+  "procedureName": "Ultrasound",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 555
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 555
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 555
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 555
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 760
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 801
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 906
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 945
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 945
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 945
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 945
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 945
+    },
+    {
+      "name": "Zuckerberg San Francisco General Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 977
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 995
+    },
+    {
+      "name": "El Camino Health - Mountain View Hospital",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 6,
+      "cmsStars": 4,
+      "estimatedOop": 1036
+    },
+    {
+      "name": "El Camino Health - Los Gatos Hospital",
+      "city": "Los Gatos",
+      "state": "CA",
+      "distance": 16,
+      "estimatedOop": 1036
+    },
+    {
+      "name": "UCSF Health Saint Francis Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 3,
+      "estimatedOop": 1106
+    },
+    {
+      "name": "Sequoia Hospital",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 7,
+      "cmsStars": 5,
+      "estimatedOop": 1178
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 1304
+    },
+    {
+      "name": "AHMC Seton Medical Center",
+      "city": "Daly City",
+      "state": "CA",
+      "distance": 24,
+      "cmsStars": 1,
+      "estimatedOop": 1331
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:02.418Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/ultrasound_94303.png"
+}

@@ -1,0 +1,167 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "knee_arthro",
+  "procedureName": "Knee Repair - Arthroscopic",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Thorek Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 12,
+      "estimatedOop": 916
+    },
+    {
+      "name": "Thorek Memorial Hospital Andersonville",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 916
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 1261
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 1323
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 1323
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 1461
+    },
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 1589
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 1908
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 2327
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 2327
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 3044
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 3446
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth GlenOaks",
+      "city": "Glendale Heights",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 3,
+      "estimatedOop": 4020
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Shriners Childrens - Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 4790
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:01:20.926Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/knee_arthro_60637.png"
+}

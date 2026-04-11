@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Local environment files
+.env
+.env.local
+
+# Temporary workspace artifacts
+.tmp/
+
+# Python bytecode caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+

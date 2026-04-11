@@ -1,0 +1,169 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "xray",
+  "procedureName": "X-Ray",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 19
+    },
+    {
+      "name": "Roseland Community Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 6,
+      "cmsStars": 1,
+      "estimatedOop": 70
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Holy Family Medical Center",
+      "city": "Des Plaines",
+      "state": "IL",
+      "distance": 24,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Humboldt Park Health",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 1,
+      "estimatedOop": 163
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth La Grange",
+      "city": "La Grange",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 4,
+      "estimatedOop": 188
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Hinsdale",
+      "city": "Hinsdale",
+      "state": "IL",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 188
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Bolingbrook",
+      "city": "Bolingbrook",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 188
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 190
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 190
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 239
+    },
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 240
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 240
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 267
+    },
+    {
+      "name": "The Loretto Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "estimatedOop": 273
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:18.724Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/xray_60637.png"
+}

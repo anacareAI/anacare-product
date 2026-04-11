@@ -1,0 +1,162 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "ct_abdomen_pelvis",
+  "procedureName": "CT of Abdomen and Pelvis",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 828
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 828
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 828
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 828
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 1076
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 1230
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 3149
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 3149
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 3149
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 3149
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 3207
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 3291
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 3291
+    },
+    {
+      "name": "John Muir Health - Concord Medical Center",
+      "city": "Concord",
+      "state": "CA",
+      "distance": 38,
+      "cmsStars": 5,
+      "estimatedOop": 3326
+    },
+    {
+      "name": "John Muir Health - Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 33,
+      "cmsStars": 3,
+      "estimatedOop": 4696
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 4840
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 4840
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 4840
+    },
+    {
+      "name": "El Camino Health - Los Gatos Hospital",
+      "city": "Los Gatos",
+      "state": "CA",
+      "distance": 16,
+      "estimatedOop": 5228
+    },
+    {
+      "name": "El Camino Health - Mountain View Hospital",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 6,
+      "cmsStars": 4,
+      "estimatedOop": 5228
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:02:08.516Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/ct_abdomen_pelvis_94303.png"
+}

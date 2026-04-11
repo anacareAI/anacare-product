@@ -1,0 +1,299 @@
+{
+  "ankle_arthro": {
+    "gross": 10200,
+    "negotiated": 4568,
+    "cash": 3297,
+    "facility": 3091,
+    "surgeon": 824,
+    "anesthesia": 446,
+    "implant": 0
+  },
+  "finger_fracture": {
+    "gross": 10231,
+    "negotiated": 4636,
+    "cash": 3357,
+    "facility": 3117,
+    "surgeon": 879,
+    "anesthesia": 480,
+    "implant": 800
+  },
+  "breast_mri": {
+    "gross": 4363,
+    "negotiated": 1952,
+    "cash": 1378,
+    "facility": 1608,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "breast_ultrasound": {
+    "gross": 1378,
+    "negotiated": 620,
+    "cash": 448,
+    "facility": 505,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "bronchoscopy": {
+    "gross": 6874,
+    "negotiated": 3117,
+    "cash": 2238,
+    "facility": 2078,
+    "surgeon": 559,
+    "anesthesia": 320,
+    "implant": 0
+  },
+  "carpal_tunnel": {
+    "gross": 6394,
+    "negotiated": 2877,
+    "cash": 2078,
+    "facility": 1918,
+    "surgeon": 480,
+    "anesthesia": 320,
+    "implant": 0
+  },
+  "cataract": {
+    "gross": 7513,
+    "negotiated": 3357,
+    "cash": 2478,
+    "facility": 2318,
+    "surgeon": 639,
+    "anesthesia": 320,
+    "implant": 800
+  },
+  "clavicle_repair": {
+    "gross": 2558,
+    "negotiated": 1119,
+    "cash": 799,
+    "facility": 719,
+    "surgeon": 240,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "colonoscopy": {
+    "gross": 9783,
+    "negotiated": 4460,
+    "cash": 3165,
+    "facility": 3021,
+    "surgeon": 863,
+    "anesthesia": 432,
+    "implant": 0
+  },
+  "colonoscopy_stoma": {
+    "gross": 5755,
+    "negotiated": 2558,
+    "cash": 1838,
+    "facility": 1758,
+    "surgeon": 480,
+    "anesthesia": 240,
+    "implant": 0
+  },
+  "ct": {
+    "gross": 2756,
+    "negotiated": 1263,
+    "cash": 896,
+    "facility": 1033,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "ct_abdomen_pelvis": {
+    "gross": 4823,
+    "negotiated": 2182,
+    "cash": 1608,
+    "facility": 1722,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "cesarean": {
+    "gross": 25577,
+    "negotiated": 11510,
+    "cash": 8312,
+    "facility": 7833,
+    "surgeon": 2078,
+    "anesthesia": 1119,
+    "implant": 0
+  },
+  "vaginal_delivery": {
+    "gross": 14387,
+    "negotiated": 6474,
+    "cash": 4716,
+    "facility": 4396,
+    "surgeon": 1199,
+    "anesthesia": 639,
+    "implant": 0
+  },
+  "egd": {
+    "gross": 4316,
+    "negotiated": 1918,
+    "cash": 1359,
+    "facility": 1279,
+    "surgeon": 400,
+    "anesthesia": 200,
+    "implant": 0
+  },
+  "fetal_mri": {
+    "gross": 5282,
+    "negotiated": 2411,
+    "cash": 1722,
+    "facility": 1952,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "fna_biopsy": {
+    "gross": 2877,
+    "negotiated": 1279,
+    "cash": 959,
+    "facility": 879,
+    "surgeon": 240,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "wrist_repair": {
+    "gross": 3037,
+    "negotiated": 1359,
+    "cash": 959,
+    "facility": 879,
+    "surgeon": 320,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "hernia_lap": {
+    "gross": 14866,
+    "negotiated": 6714,
+    "cash": 4876,
+    "facility": 4556,
+    "surgeon": 1199,
+    "anesthesia": 719,
+    "implant": 0
+  },
+  "hernia_open": {
+    "gross": 11669,
+    "negotiated": 5275,
+    "cash": 3837,
+    "facility": 3597,
+    "surgeon": 959,
+    "anesthesia": 559,
+    "implant": 0
+  },
+  "hip_arthro": {
+    "gross": 19582,
+    "negotiated": 8792,
+    "cash": 6394,
+    "facility": 5995,
+    "surgeon": 1599,
+    "anesthesia": 879,
+    "implant": 0
+  },
+  "hysteroscopy": {
+    "gross": 9911,
+    "negotiated": 4476,
+    "cash": 3197,
+    "facility": 3037,
+    "surgeon": 799,
+    "anesthesia": 480,
+    "implant": 0
+  },
+  "knee_arthro": {
+    "gross": 9988,
+    "negotiated": 4519,
+    "cash": 3270,
+    "facility": 3032,
+    "surgeon": 832,
+    "anesthesia": 476,
+    "implant": 0
+  },
+  "lap_ovary": {
+    "gross": 16305,
+    "negotiated": 7353,
+    "cash": 5275,
+    "facility": 5035,
+    "surgeon": 1359,
+    "anesthesia": 719,
+    "implant": 0
+  },
+  "mammogram": {
+    "gross": 781,
+    "negotiated": 356,
+    "cash": 253,
+    "facility": 287,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "mri_contrast": {
+    "gross": 5512,
+    "negotiated": 2526,
+    "cash": 1837,
+    "facility": 2067,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "mri_no_contrast": {
+    "gross": 6618,
+    "negotiated": 2920,
+    "cash": 2141,
+    "facility": 2336,
+    "surgeon": 0,
+    "anesthesia": 0,
+    "implant": 0
+  },
+  "breast_biopsy": {
+    "gross": 4955,
+    "negotiated": 2238,
+    "cash": 1599,
+    "facility": 1519,
+    "surgeon": 400,
+    "anesthesia": 240,
+    "implant": 0
+  },
+  "shoulder_arthro": {
+    "gross": 23738,
+    "negotiated": 10630,
+    "cash": 7673,
+    "facility": 7193,
+    "surgeon": 1918,
+    "anesthesia": 1039,
+    "implant": 0
+  },
+  "tonsil_child": {
+    "gross": 16625,
+    "negotiated": 7513,
+    "cash": 5435,
+    "facility": 5115,
+    "surgeon": 1359,
+    "anesthesia": 719,
+    "implant": 0
+  },
+  "tonsil": {
+    "gross": 15007,
+    "negotiated": 6759,
+    "cash": 4899,
+    "facility": 4589,
+    "surgeon": 1240,
+    "anesthesia": 682,
+    "implant": 0
+  },
+  "ultrasound": {
+    "gross": 1148,
+    "negotiated": 517,
+    "cash": 367,
+    "facility": 425,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  },
+  "xray": {
+    "gross": 689,
+    "negotiated": 310,
+    "cash": 224,
+    "facility": 253,
+    "surgeon": 1,
+    "anesthesia": 1,
+    "implant": 0
+  }
+}

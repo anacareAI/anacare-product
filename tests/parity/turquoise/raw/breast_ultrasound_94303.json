@@ -1,0 +1,164 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "breast_ultrasound",
+  "procedureName": "Breast Ultrasound",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 205
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 242
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 242
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 242
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 242
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 303
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 303
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 303
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 303
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 306
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 306
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 436
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 436
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 436
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 438
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 444
+    },
+    {
+      "name": "John Muir Health - Concord Medical Center",
+      "city": "Concord",
+      "state": "CA",
+      "distance": 38,
+      "cmsStars": 5,
+      "estimatedOop": 597
+    },
+    {
+      "name": "John Muir Health - Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 33,
+      "cmsStars": 3,
+      "estimatedOop": 608
+    },
+    {
+      "name": "AHMC Seton Medical Center",
+      "city": "Daly City",
+      "state": "CA",
+      "distance": 24,
+      "cmsStars": 1,
+      "estimatedOop": 660
+    },
+    {
+      "name": "Stanford Health Care - ValleyCare",
+      "city": "Pleasanton",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 670
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:01:47.297Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/breast_ultrasound_94303.png"
+}

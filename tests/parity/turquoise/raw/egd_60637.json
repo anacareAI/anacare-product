@@ -1,0 +1,168 @@
+{
+  "category": "Gastrointestinal",
+  "procedureId": "egd",
+  "procedureName": "Esophagogastroduodenoscopy, Simple",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 307
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 430
+    },
+    {
+      "name": "Community First Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 1,
+      "estimatedOop": 590
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 592
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 691
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 837
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 837
+    },
+    {
+      "name": "Advocate Childrens Hospital - Oak Lawn",
+      "city": "Oak Lawn",
+      "state": "IL",
+      "distance": 8,
+      "estimatedOop": 1040
+    },
+    {
+      "name": "Advocate Illinois Masonic Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 3,
+      "estimatedOop": 1040
+    },
+    {
+      "name": "Advocate Childrens Hospital - Park Ridge",
+      "city": "Park Ridge",
+      "state": "IL",
+      "distance": 22,
+      "estimatedOop": 1040
+    },
+    {
+      "name": "Advocate Lutheran General Hospital",
+      "city": "Park Ridge",
+      "state": "IL",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 1040
+    },
+    {
+      "name": "Advocate Christ Medical Center",
+      "city": "Oak Lawn",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 1040
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth GlenOaks",
+      "city": "Glendale Heights",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 3,
+      "estimatedOop": 1115
+    },
+    {
+      "name": "Roseland Community Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 6,
+      "cmsStars": 1,
+      "estimatedOop": 1210
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 1270
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 1270
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 1270
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 1270
+    },
+    {
+      "name": "Holy Family Medical Center",
+      "city": "Des Plaines",
+      "state": "IL",
+      "distance": 24,
+      "estimatedOop": 1270
+    },
+    {
+      "name": "Humboldt Park Health",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 1,
+      "estimatedOop": 1510
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:51.507Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/egd_60637.png"
+}

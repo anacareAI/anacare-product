@@ -1,0 +1,643 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "finger_fracture",
+  "procedureName": "Articular Finger Fracture Repair - Surgical",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Kaiser Foundation Hospital - Oakland/Richmond",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27.2,
+      "cmsStars": 2,
+      "tier": "Tier 3",
+      "estimatedOop": 2720,
+      "cashPrice": 1969,
+      "negotiatedRate": 2720
+    },
+    {
+      "name": "Kaiser Foundation Hospital - San Leandro",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19.6,
+      "cmsStars": 2,
+      "tier": "Tier 3",
+      "estimatedOop": 2833,
+      "cashPrice": 2052,
+      "negotiatedRate": 2833
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13.5,
+      "cmsStars": 1,
+      "tier": "Tier 3",
+      "estimatedOop": 2969,
+      "cashPrice": 2150,
+      "negotiatedRate": 2969
+    },
+    {
+      "name": "Valley Medical Center",
+      "city": "Renton",
+      "state": "WA",
+      "distance": 14,
+      "cmsStars": 2,
+      "tier": "Tier 3",
+      "estimatedOop": 3354,
+      "cashPrice": 2429,
+      "negotiatedRate": 3354
+    },
+    {
+      "name": "Ucsf Health Saint Francis Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26.7,
+      "cmsStars": 2,
+      "tier": "Tier 3",
+      "estimatedOop": 3490,
+      "cashPrice": 2527,
+      "negotiatedRate": 3490
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14.6,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4147,
+      "cashPrice": 3003,
+      "negotiatedRate": 4147
+    },
+    {
+      "name": "Regional Medical Center Of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17.1,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4147,
+      "cashPrice": 3003,
+      "negotiatedRate": 4147
+    },
+    {
+      "name": "San Ramon Regional Medical Center",
+      "city": "San Ramon",
+      "state": "CA",
+      "distance": 25.2,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4172,
+      "cashPrice": 3021,
+      "negotiatedRate": 4172
+    },
+    {
+      "name": "California Pacific Medical Center- Van Ness Campus",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28.8,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4301,
+      "cashPrice": 3115,
+      "negotiatedRate": 4301
+    },
+    {
+      "name": "Sutter Delta Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 41.6,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4327,
+      "cashPrice": 3133,
+      "negotiatedRate": 4327
+    },
+    {
+      "name": "Washington Hospital",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4456,
+      "cashPrice": 3226,
+      "negotiatedRate": 4456
+    },
+    {
+      "name": "Chinese Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4713,
+      "cashPrice": 3413,
+      "negotiatedRate": 4713
+    },
+    {
+      "name": "Kaiser Foundation Hospital-Santa Clara",
+      "city": "Santa Clara",
+      "state": "CA",
+      "distance": 11,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4842,
+      "cashPrice": 3506,
+      "negotiatedRate": 4842
+    },
+    {
+      "name": "California Pacific Medical Ctr-Davies Campus Hosp",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 27.7,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4894,
+      "cashPrice": 3544,
+      "negotiatedRate": 4894
+    },
+    {
+      "name": "Sutter Solano Medical Center",
+      "city": "Vallejo",
+      "state": "CA",
+      "distance": 47.9,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4971,
+      "cashPrice": 3599,
+      "negotiatedRate": 4971
+    },
+    {
+      "name": "Alta Bates Summit Medical Center - Alta Bates Camp",
+      "city": "Berkeley",
+      "state": "CA",
+      "distance": 29.3,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4971,
+      "cashPrice": 3599,
+      "negotiatedRate": 4971
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4997,
+      "cashPrice": 3618,
+      "negotiatedRate": 4997
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39.9,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4997,
+      "cashPrice": 3618,
+      "negotiatedRate": 4997
+    },
+    {
+      "name": "Kaiser Foundation Hospital - Antioch",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 42.4,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 4997,
+      "cashPrice": 3618,
+      "negotiatedRate": 4997
+    },
+    {
+      "name": "Kaiser Foundation Hospital - Walnut Creek",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 32.2,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5151,
+      "cashPrice": 3730,
+      "negotiatedRate": 5151
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 43.9,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5151,
+      "cashPrice": 3730,
+      "negotiatedRate": 5151
+    },
+    {
+      "name": "John Muir Medical Center - Walnut Creek Campus",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 33.1,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5228,
+      "cashPrice": 3786,
+      "negotiatedRate": 5228
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5409,
+      "cashPrice": 3917,
+      "negotiatedRate": 5409
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14.6,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5666,
+      "cashPrice": 4103,
+      "negotiatedRate": 5666
+    },
+    {
+      "name": "Kaiser Foundation Hospital - Vallejo",
+      "city": "Vallejo",
+      "state": "CA",
+      "distance": 46,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5666,
+      "cashPrice": 4103,
+      "negotiatedRate": 5666
+    },
+    {
+      "name": "Kaiser Foundation Hospital - Richmond",
+      "city": "Richmond",
+      "state": "CA",
+      "distance": 36,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5666,
+      "cashPrice": 4103,
+      "negotiatedRate": 5666
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27.1,
+      "cmsStars": 3,
+      "tier": "Tier 2",
+      "estimatedOop": 5924,
+      "cashPrice": 4290,
+      "negotiatedRate": 5924
+    },
+    {
+      "name": "Eden Medical Center",
+      "city": "Castro Valley",
+      "state": "CA",
+      "distance": 18,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6261,
+      "cashPrice": 4534,
+      "negotiatedRate": 6261
+    },
+    {
+      "name": "John Muir Medical Center - Concord Campus",
+      "city": "Concord",
+      "state": "CA",
+      "distance": 37.9,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6261,
+      "cashPrice": 4534,
+      "negotiatedRate": 6261
+    },
+    {
+      "name": "Kaiser Foundation Hospital - Redwood City",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 6.2,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6290,
+      "cashPrice": 4554,
+      "negotiatedRate": 6290
+    },
+    {
+      "name": "Kaiser Foundation Hospital And Rehab Center",
+      "city": "Vallejo",
+      "state": "CA",
+      "distance": 47,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6375,
+      "cashPrice": 4616,
+      "negotiatedRate": 6375
+    },
+    {
+      "name": "Kaiser Foundation Hospital",
+      "city": "San Rafael",
+      "state": "CA",
+      "distance": 44,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6544,
+      "cashPrice": 4739,
+      "negotiatedRate": 6544
+    },
+    {
+      "name": "Kaiser Foundation Hospital - San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28.6,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6658,
+      "cashPrice": 4821,
+      "negotiatedRate": 6658
+    },
+    {
+      "name": "Sutter Tracy Community Hospital",
+      "city": "Tracy",
+      "state": "CA",
+      "distance": 44,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 6941,
+      "cashPrice": 5026,
+      "negotiatedRate": 6941
+    },
+    {
+      "name": "California Pacific Medical Center - Mission Bernal",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7026,
+      "cashPrice": 5088,
+      "negotiatedRate": 7026
+    },
+    {
+      "name": "Marinhealth Medical Center",
+      "city": "Greenbrae",
+      "state": "CA",
+      "distance": 41,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7139,
+      "cashPrice": 5170,
+      "negotiatedRate": 7139
+    },
+    {
+      "name": "El Camino Health",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 5.7,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7253,
+      "cashPrice": 5252,
+      "negotiatedRate": 7253
+    },
+    {
+      "name": "Ucsf Health St. Mary'S Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29.1,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7281,
+      "cashPrice": 5272,
+      "negotiatedRate": 7281
+    },
+    {
+      "name": "Stanford Health Care Tri-Valley",
+      "city": "Pleasanton",
+      "state": "CA",
+      "distance": 22.8,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7394,
+      "cashPrice": 5354,
+      "negotiatedRate": 7394
+    },
+    {
+      "name": "Kaiser Foundation Hospital-San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14.3,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7423,
+      "cashPrice": 5375,
+      "negotiatedRate": 7423
+    },
+    {
+      "name": "Kaiser Foundation Hospital - Fremont",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12.1,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7536,
+      "cashPrice": 5457,
+      "negotiatedRate": 7536
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27.5,
+      "cmsStars": 4,
+      "tier": "Tier 1",
+      "estimatedOop": 7649,
+      "cashPrice": 5539,
+      "negotiatedRate": 7649
+    },
+    {
+      "name": "Stanford University Hospital",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 1.9,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 7933,
+      "cashPrice": 5744,
+      "negotiatedRate": 7933
+    },
+    {
+      "name": "Lucile Packard Childrens Hospital Stanford",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 1.9,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 7933,
+      "cashPrice": 5744,
+      "negotiatedRate": 7933
+    },
+    {
+      "name": "Peninsula Medical Center",
+      "city": "Burlingame",
+      "state": "CA",
+      "distance": 17.3,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 8159,
+      "cashPrice": 5908,
+      "negotiatedRate": 8159
+    },
+    {
+      "name": "Kaiser Foundation Hospital - South San Francisco",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 8159,
+      "cashPrice": 5908,
+      "negotiatedRate": 8159
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26.3,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 8216,
+      "cashPrice": 5949,
+      "negotiatedRate": 8216
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28.1,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 8216,
+      "cashPrice": 5949,
+      "negotiatedRate": 8216
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28.7,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 8216,
+      "cashPrice": 5949,
+      "negotiatedRate": 8216
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26.3,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 8216,
+      "cashPrice": 5949,
+      "negotiatedRate": 8216
+    },
+    {
+      "name": "Dominican Hospital",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "distance": 32.5,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 9123,
+      "cashPrice": 6606,
+      "negotiatedRate": 9123
+    },
+    {
+      "name": "Stanford Health Care",
+      "city": "Stanford",
+      "state": "CA",
+      "distance": 1.8,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 9179,
+      "cashPrice": 6647,
+      "negotiatedRate": 9179
+    },
+    {
+      "name": "Alta Bates Summit Medical Center",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 9208,
+      "cashPrice": 6667,
+      "negotiatedRate": 9208
+    },
+    {
+      "name": "Sequoia Hospital",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 6.6,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 9208,
+      "cashPrice": 6667,
+      "negotiatedRate": 9208
+    },
+    {
+      "name": "Ucsf Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28.1,
+      "cmsStars": 5,
+      "tier": "Tier 1",
+      "estimatedOop": 9293,
+      "cashPrice": 6729,
+      "negotiatedRate": 9293
+    }
+  ],
+  "packages": [
+    {
+      "code": "",
+      "codeType": "bundle",
+      "description": "Facility Fee",
+      "cost": 3117
+    },
+    {
+      "code": "",
+      "codeType": "bundle",
+      "description": "Surgeon/Professional Fee",
+      "cost": 879
+    },
+    {
+      "code": "",
+      "codeType": "bundle",
+      "description": "Anesthesia",
+      "cost": 480
+    },
+    {
+      "code": "",
+      "codeType": "bundle",
+      "description": "Implant",
+      "cost": 800
+    }
+  ],
+  "procedures": [
+    "Articular Finger Fracture Repair - Surgical"
+  ],
+  "timestamp": "2026-03-31T06:40:56.618Z"
+}

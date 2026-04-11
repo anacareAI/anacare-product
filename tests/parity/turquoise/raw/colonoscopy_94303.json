@@ -1,0 +1,166 @@
+{
+  "category": "Gastrointestinal",
+  "procedureId": "colonoscopy",
+  "procedureName": "Colonoscopy",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 801
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 1249
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 1292
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1651
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 1651
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1651
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 1651
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1651
+    },
+    {
+      "name": "Watsonville Community Hospital",
+      "city": "Watsonville",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 1,
+      "estimatedOop": 2393
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 2659
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 2926
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 3000
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 3910
+    },
+    {
+      "name": "South San Francisco Medical Center",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 4472
+    },
+    {
+      "name": "Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 31,
+      "cmsStars": 2,
+      "estimatedOop": 4472
+    },
+    {
+      "name": "Antioch Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 4,
+      "estimatedOop": 4472
+    },
+    {
+      "name": "Fremont Medical Center",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 4472
+    },
+    {
+      "name": "San Leandro Medical Center",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 18,
+      "cmsStars": 3,
+      "estimatedOop": 4472
+    },
+    {
+      "name": "Redwood City Medical Center",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 5,
+      "cmsStars": 4,
+      "estimatedOop": 4472
+    },
+    {
+      "name": "San Jose Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 4472
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:24.251Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/colonoscopy_94303.png"
+}

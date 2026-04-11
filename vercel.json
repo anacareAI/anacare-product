@@ -1,0 +1,26 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/dist",
+  "installCommand": "cd frontend && npm ci",
+  "rewrites": [
+    { "source": "/v2/:path*", "destination": "/api/index?__forward=/v2/:path*" },
+    { "source": "/health", "destination": "/api/index?__forward=/health" },
+    { "source": "/hospitals", "destination": "/api/index?__forward=/hospitals" },
+    { "source": "/plans", "destination": "/api/index?__forward=/plans" },
+    { "source": "/zipcodes/:path*", "destination": "/api/index?__forward=/zipcodes/:path*" },
+    { "source": "/search/:path*", "destination": "/api/index?__forward=/search/:path*" },
+    { "source": "/providers/:path*", "destination": "/api/index?__forward=/providers/:path*" },
+    { "source": "/docs", "destination": "/api/index?__forward=/docs" },
+    { "source": "/openapi.json", "destination": "/api/index?__forward=/openapi.json" },
+    { "source": "/redoc", "destination": "/api/index?__forward=/redoc" },
+    { "source": "/results", "destination": "/index.html" },
+    { "source": "/sign-up/:path*", "destination": "/index.html" },
+    { "source": "/create-organization/:path*", "destination": "/index.html" },
+    { "source": "/organization/:path*", "destination": "/index.html" },
+    { "source": "/feedback", "destination": "/index.html" },
+    { "source": "/onboarding/:path*", "destination": "/index.html" },
+    { "source": "/home", "destination": "/index.html" },
+    { "source": "/sign-in/:path*", "destination": "/index.html" }
+  ]
+}

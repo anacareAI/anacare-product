@@ -1,0 +1,169 @@
+{
+  "category": "Gastrointestinal",
+  "procedureId": "hernia_open",
+  "procedureName": "Hernia Repair - Non-Laparoscopic",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Lucile Packard Childrens Hospital Stanford",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 2,
+      "estimatedOop": 962
+    },
+    {
+      "name": "Stanford Health Care - ValleyCare",
+      "city": "Pleasanton",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 1521
+    },
+    {
+      "name": "Stanford University Hospital",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 2,
+      "cmsStars": 5,
+      "estimatedOop": 1521
+    },
+    {
+      "name": "San Mateo Medical Center",
+      "city": "San Mateo",
+      "state": "CA",
+      "distance": 11,
+      "cmsStars": 3,
+      "estimatedOop": 2442
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 2583
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 2623
+    },
+    {
+      "name": "Watsonville Community Hospital",
+      "city": "Watsonville",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 1,
+      "estimatedOop": 3590
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 3662
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 5116
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 5116
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 5116
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 5116
+    },
+    {
+      "name": "South San Francisco Medical Center",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "Oakland Medical Center",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27,
+      "cmsStars": 3,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 31,
+      "cmsStars": 2,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "Antioch Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 4,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "Fremont Medical Center",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "San Leandro Medical Center",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 18,
+      "cmsStars": 3,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "Redwood City Medical Center",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 5,
+      "cmsStars": 4,
+      "estimatedOop": 16087
+    },
+    {
+      "name": "San Jose Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 16087
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:04:07.801Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/hernia_open_94303.png"
+}

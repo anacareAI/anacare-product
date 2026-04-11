@@ -1,0 +1,164 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "breast_mri",
+  "procedureName": "Breast MRI",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 682
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 838
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 838
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 838
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 951
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 1110
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 1110
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 1110
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 1110
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 1240
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 1299
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 1906
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 1906
+    },
+    {
+      "name": "El Camino Health - Mountain View Hospital",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 6,
+      "cmsStars": 4,
+      "estimatedOop": 2430
+    },
+    {
+      "name": "El Camino Health - Los Gatos Hospital",
+      "city": "Los Gatos",
+      "state": "CA",
+      "distance": 16,
+      "estimatedOop": 2430
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 2500
+    },
+    {
+      "name": "AHMC Seton Medical Center",
+      "city": "Daly City",
+      "state": "CA",
+      "distance": 24,
+      "cmsStars": 1,
+      "estimatedOop": 2619
+    },
+    {
+      "name": "UCSF Health St Marys Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29,
+      "cmsStars": 3,
+      "estimatedOop": 3511
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 3862
+    },
+    {
+      "name": "MarinHealth Medical Center",
+      "city": "Greenbrae",
+      "state": "CA",
+      "distance": 41,
+      "cmsStars": 4,
+      "estimatedOop": 4106
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:01:36.725Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/breast_mri_94303.png"
+}

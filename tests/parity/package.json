@@ -1,0 +1,18 @@
+{
+  "name": "anacare-parity-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "parity:test": "npx playwright test --config=playwright.config.ts",
+    "parity:crawl-turquoise": "npx tsx turquoise/crawler.ts",
+    "parity:crawl-anacare": "npx tsx anacare/crawler.ts",
+    "parity:normalize": "npx tsx normalizer.ts",
+    "parity:compare": "npx tsx comparator.ts",
+    "parity:full": "npx tsx runner.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

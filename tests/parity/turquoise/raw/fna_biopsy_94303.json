@@ -1,0 +1,164 @@
+{
+  "category": "Diagnostic",
+  "procedureId": "fna_biopsy",
+  "procedureName": "Fine Needle Aspiration Biopsy with Ultrasound Guidance",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 420
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 641
+    },
+    {
+      "name": "Sequoia Hospital",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 7,
+      "cmsStars": 5,
+      "estimatedOop": 647
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 694
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 694
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 694
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 694
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 694
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 727
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 727
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 749
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 755
+    },
+    {
+      "name": "Dominican Hospital",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "distance": 32,
+      "cmsStars": 4,
+      "estimatedOop": 859
+    },
+    {
+      "name": "El Camino Health - Los Gatos Hospital",
+      "city": "Los Gatos",
+      "state": "CA",
+      "distance": 16,
+      "estimatedOop": 914
+    },
+    {
+      "name": "El Camino Health - Mountain View Hospital",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 6,
+      "cmsStars": 4,
+      "estimatedOop": 914
+    },
+    {
+      "name": "UCSF Health St Marys Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29,
+      "cmsStars": 3,
+      "estimatedOop": 959
+    },
+    {
+      "name": "UCSF Health Saint Francis Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 3,
+      "estimatedOop": 977
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 1191
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 1191
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 1191
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:05:56.777Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/fna_biopsy_94303.png"
+}

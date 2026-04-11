@@ -1,0 +1,169 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "ultrasound",
+  "procedureName": "Ultrasound",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Holy Family Medical Center",
+      "city": "Des Plaines",
+      "state": "IL",
+      "distance": 24,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 144
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 144
+    },
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 157
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 183
+    },
+    {
+      "name": "Roseland Community Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 6,
+      "cmsStars": 1,
+      "estimatedOop": 211
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 263
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 263
+    },
+    {
+      "name": "Humboldt Park Health",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 1,
+      "estimatedOop": 335
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 344
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 370
+    },
+    {
+      "name": "Franciscan Health Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 416
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 417
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 417
+    },
+    {
+      "name": "Franciscan Health Michigan City",
+      "city": "Michigan City",
+      "state": "IN",
+      "distance": 37,
+      "cmsStars": 3,
+      "estimatedOop": 431
+    },
+    {
+      "name": "Saint Francis Hospital",
+      "city": "Evanston",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 2,
+      "estimatedOop": 452
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:07.859Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/ultrasound_60637.png"
+}

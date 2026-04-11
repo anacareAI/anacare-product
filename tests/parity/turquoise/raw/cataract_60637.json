@@ -1,0 +1,167 @@
+{
+  "category": "Ophthalmology",
+  "procedureId": "cataract",
+  "procedureName": "Cataract Removal with Intraocular Lens Insertion",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 899
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 1023
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 1023
+    },
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 1040
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 1218
+    },
+    {
+      "name": "Humboldt Park Health",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 1,
+      "estimatedOop": 1559
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 1655
+    },
+    {
+      "name": "Thorek Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 12,
+      "estimatedOop": 1744
+    },
+    {
+      "name": "Thorek Memorial Hospital Andersonville",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 1744
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 2140
+    },
+    {
+      "name": "Insight Hospital & Medical Center Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 5,
+      "cmsStars": 1,
+      "estimatedOop": 2800
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth GlenOaks",
+      "city": "Glendale Heights",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 3,
+      "estimatedOop": 2920
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 3090
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 3090
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 3090
+    },
+    {
+      "name": "Holy Family Medical Center",
+      "city": "Des Plaines",
+      "state": "IL",
+      "distance": 24,
+      "estimatedOop": 3090
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 3090
+    },
+    {
+      "name": "Silver Cross Hospital",
+      "city": "New Lenox",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 3481
+    },
+    {
+      "name": "South Shore Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 3696
+    },
+    {
+      "name": "Franciscan Health Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 3836
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:05:29.472Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/cataract_60637.png"
+}

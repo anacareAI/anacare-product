@@ -1,0 +1,170 @@
+{
+  "category": "Radiology & Imaging",
+  "procedureId": "breast_mri",
+  "procedureName": "Breast MRI",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 289
+    },
+    {
+      "name": "Franciscan Health Michigan City",
+      "city": "Michigan City",
+      "state": "IN",
+      "distance": 37,
+      "cmsStars": 3,
+      "estimatedOop": 360
+    },
+    {
+      "name": "Franciscan Health Munster",
+      "city": "Munster",
+      "state": "IN",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 404
+    },
+    {
+      "name": "Franciscan Health Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 427
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Holy Family Medical Center",
+      "city": "Des Plaines",
+      "state": "IL",
+      "distance": 24,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 483
+    },
+    {
+      "name": "Franciscan Health Dyer",
+      "city": "Dyer",
+      "state": "IN",
+      "distance": 20,
+      "cmsStars": 2,
+      "estimatedOop": 488
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 666
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 666
+    },
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 696
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 1094
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Bolingbrook",
+      "city": "Bolingbrook",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 1125
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Hinsdale",
+      "city": "Hinsdale",
+      "state": "IL",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 1125
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth La Grange",
+      "city": "La Grange",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 4,
+      "estimatedOop": 1125
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 1139
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:01:42.026Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/breast_mri_60637.png"
+}

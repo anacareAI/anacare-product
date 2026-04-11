@@ -1,0 +1,168 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "wrist_repair",
+  "procedureName": "Forearm/Wrist Repair - Non-Surgical",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Uchicago Medicine AdventHealth Bolingbrook",
+      "city": "Bolingbrook",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 131
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Hinsdale",
+      "city": "Hinsdale",
+      "state": "IL",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 131
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth La Grange",
+      "city": "La Grange",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 4,
+      "estimatedOop": 131
+    },
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 136
+    },
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 143
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 188
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 225
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 228
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 228
+    },
+    {
+      "name": "Ascension Saint Joseph Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 229
+    },
+    {
+      "name": "Advocate South Suburban Hospital",
+      "city": "Hazel Crest",
+      "state": "IL",
+      "distance": 16,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Good Shepherd Hospital",
+      "city": "Barrington",
+      "state": "IL",
+      "distance": 41,
+      "cmsStars": 4,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Illinois Masonic Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 3,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Lutheran General Hospital",
+      "city": "Park Ridge",
+      "state": "IL",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Sherman Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 43,
+      "cmsStars": 4,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Good Samaritan Hospital",
+      "city": "Downers Grove",
+      "state": "IL",
+      "distance": 22,
+      "cmsStars": 3,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Childrens Hospital - Oak Lawn",
+      "city": "Oak Lawn",
+      "state": "IL",
+      "distance": 8,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Condell Medical Center",
+      "city": "Libertyville",
+      "state": "IL",
+      "distance": 39,
+      "cmsStars": 4,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Childrens Hospital - Park Ridge",
+      "city": "Park Ridge",
+      "state": "IL",
+      "distance": 22,
+      "estimatedOop": 270
+    },
+    {
+      "name": "Advocate Trinity Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 4,
+      "cmsStars": 2,
+      "estimatedOop": 270
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:00:59.868Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/wrist_repair_60637.png"
+}

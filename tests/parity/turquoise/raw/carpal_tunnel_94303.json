@@ -1,0 +1,169 @@
+{
+  "category": "Neurology",
+  "procedureId": "carpal_tunnel",
+  "procedureName": "Carpal Tunnel Repair",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 764
+    },
+    {
+      "name": "Stanford Health Care - ValleyCare",
+      "city": "Pleasanton",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 1466
+    },
+    {
+      "name": "Stanford University Hospital",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 2,
+      "cmsStars": 5,
+      "estimatedOop": 1466
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 1701
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 2089
+    },
+    {
+      "name": "Oakland Medical Center",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27,
+      "cmsStars": 3,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 31,
+      "cmsStars": 2,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "Antioch Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 4,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "Fremont Medical Center",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "San Leandro Medical Center",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 18,
+      "cmsStars": 3,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "Redwood City Medical Center",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 5,
+      "cmsStars": 4,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "San Jose Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "South San Francisco Medical Center",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 4242
+    },
+    {
+      "name": "St Louise Regional Hospital",
+      "city": "Gilroy",
+      "state": "CA",
+      "distance": 46,
+      "estimatedOop": 4398
+    },
+    {
+      "name": "Regional Medical Center of San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 17,
+      "cmsStars": 2,
+      "estimatedOop": 4398
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 4398
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 4398
+    },
+    {
+      "name": "San Francisco Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29,
+      "cmsStars": 4,
+      "estimatedOop": 4498
+    },
+    {
+      "name": "San Rafael Medical Center",
+      "city": "San Rafael",
+      "state": "CA",
+      "distance": 45,
+      "cmsStars": 4,
+      "estimatedOop": 4498
+    },
+    {
+      "name": "Santa Clara Medical Center",
+      "city": "Santa Clara",
+      "state": "CA",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 4498
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:05:45.898Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/carpal_tunnel_94303.png"
+}

@@ -1,0 +1,169 @@
+{
+  "category": "Diagnostic",
+  "procedureId": "breast_biopsy",
+  "procedureName": "Percutaneous Breast Biopsy",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 324
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 324
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Bolingbrook",
+      "city": "Bolingbrook",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 499
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth Hinsdale",
+      "city": "Hinsdale",
+      "state": "IL",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 499
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth La Grange",
+      "city": "La Grange",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 4,
+      "estimatedOop": 499
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 648
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 784
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 784
+    },
+    {
+      "name": "Community First Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 1,
+      "estimatedOop": 786
+    },
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 804
+    },
+    {
+      "name": "Weiss Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 13,
+      "cmsStars": 1,
+      "estimatedOop": 1094
+    },
+    {
+      "name": "Saint Francis Hospital",
+      "city": "Evanston",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 2,
+      "estimatedOop": 1408
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 1468
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 1520
+    },
+    {
+      "name": "Roseland Community Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 6,
+      "cmsStars": 1,
+      "estimatedOop": 1670
+    },
+    {
+      "name": "West Suburban Medical Center",
+      "city": "Oak Park",
+      "state": "IL",
+      "distance": 12,
+      "cmsStars": 1,
+      "estimatedOop": 1880
+    },
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 1927
+    },
+    {
+      "name": "Advocate Sherman Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 43,
+      "cmsStars": 4,
+      "estimatedOop": 2160
+    },
+    {
+      "name": "UChicago Medicine Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 29,
+      "estimatedOop": 2185
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 2195
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:06:13.194Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/breast_biopsy_60637.png"
+}

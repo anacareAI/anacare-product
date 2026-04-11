@@ -1,0 +1,161 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "ankle_arthro",
+  "procedureName": "Ankle Repair - Arthroscopic",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 641
+    },
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 737
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 1006
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 1058
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 1058
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 3853
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Saint Joseph Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 42,
+      "cmsStars": 3,
+      "estimatedOop": 4396
+    },
+    {
+      "name": "Silver Cross Hospital",
+      "city": "New Lenox",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 4433
+    },
+    {
+      "name": "Shriners Childrens - Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 4790
+    },
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 6501
+    },
+    {
+      "name": "Franciscan Health Munster",
+      "city": "Munster",
+      "state": "IN",
+      "distance": 17,
+      "cmsStars": 4,
+      "estimatedOop": 16216
+    },
+    {
+      "name": "Franciscan Health Michigan City",
+      "city": "Michigan City",
+      "state": "IN",
+      "distance": 37,
+      "cmsStars": 3,
+      "estimatedOop": 17221
+    },
+    {
+      "name": "Northwestern Medicine Lake Forest Hospital",
+      "city": "Lake Forest",
+      "state": "IL",
+      "distance": 36,
+      "cmsStars": 5,
+      "estimatedOop": 28603
+    },
+    {
+      "name": "Northwestern Medicine Central DuPage Hospital",
+      "city": "Winfield",
+      "state": "IL",
+      "distance": 30,
+      "cmsStars": 5,
+      "estimatedOop": 31629
+    },
+    {
+      "name": "Northwest Health - Porter",
+      "city": "Valparaiso",
+      "state": "IN",
+      "distance": 32,
+      "cmsStars": 3,
+      "estimatedOop": 31804
+    },
+    {
+      "name": "Northwest Health - Portage",
+      "city": "Portage",
+      "state": "IN",
+      "distance": 27,
+      "estimatedOop": 31804
+    },
+    {
+      "name": "Northwestern Medicine Palos Hospital",
+      "city": "Palos Heights",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 44742
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:00:28.217Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/ankle_arthro_60637.png"
+}

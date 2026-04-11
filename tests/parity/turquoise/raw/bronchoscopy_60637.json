@@ -1,0 +1,168 @@
+{
+  "category": "Pulmonary",
+  "procedureId": "bronchoscopy",
+  "procedureName": "Bronchoscopy",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 287
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 358
+    },
+    {
+      "name": "West Suburban Medical Center",
+      "city": "Oak Park",
+      "state": "IL",
+      "distance": 12,
+      "cmsStars": 1,
+      "estimatedOop": 847
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 848
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 907
+    },
+    {
+      "name": "Ascension Saint Joseph Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 909
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 1098
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 1098
+    },
+    {
+      "name": "Northwestern Medicine Marianjoy Rehabilitation Hospital",
+      "city": "Wheaton",
+      "state": "IL",
+      "distance": 28,
+      "estimatedOop": 1353
+    },
+    {
+      "name": "Elmhurst Hospital",
+      "city": "Elmhurst",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 4,
+      "estimatedOop": 1368
+    },
+    {
+      "name": "Edward Hospital",
+      "city": "Naperville",
+      "state": "IL",
+      "distance": 29,
+      "cmsStars": 5,
+      "estimatedOop": 1368
+    },
+    {
+      "name": "Community First Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 15,
+      "cmsStars": 1,
+      "estimatedOop": 1395
+    },
+    {
+      "name": "Northwestern Medicine Delnor Hospital",
+      "city": "Geneva",
+      "state": "IL",
+      "distance": 39,
+      "cmsStars": 5,
+      "estimatedOop": 1401
+    },
+    {
+      "name": "Rush Oak Park Hospital",
+      "city": "Oak Park",
+      "state": "IL",
+      "distance": 13,
+      "cmsStars": 4,
+      "estimatedOop": 1476
+    },
+    {
+      "name": "OSF Little Company of Mary Medical Center",
+      "city": "Evergreen Park",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 1628
+    },
+    {
+      "name": "Weiss Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 13,
+      "cmsStars": 1,
+      "estimatedOop": 1816
+    },
+    {
+      "name": "RUSH Specialty Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "estimatedOop": 1991
+    },
+    {
+      "name": "Rush University Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 5,
+      "estimatedOop": 1991
+    },
+    {
+      "name": "Advocate Condell Medical Center",
+      "city": "Libertyville",
+      "state": "IL",
+      "distance": 39,
+      "cmsStars": 4,
+      "estimatedOop": 2095
+    },
+    {
+      "name": "Advocate Childrens Hospital - Park Ridge",
+      "city": "Park Ridge",
+      "state": "IL",
+      "distance": 22,
+      "estimatedOop": 2095
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:05:40.464Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/bronchoscopy_60637.png"
+}

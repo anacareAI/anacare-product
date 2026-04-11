@@ -1,0 +1,167 @@
+{
+  "category": "Gastrointestinal",
+  "procedureId": "colonoscopy",
+  "procedureName": "Colonoscopy",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 546
+    },
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 617
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 625
+    },
+    {
+      "name": "Ascension Saint Joseph Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 783
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 825
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 1019
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 1113
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 1233
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 1233
+    },
+    {
+      "name": "Roseland Community Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 6,
+      "cmsStars": 1,
+      "estimatedOop": 1237
+    },
+    {
+      "name": "Thorek Memorial Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 12,
+      "estimatedOop": 1339
+    },
+    {
+      "name": "Thorek Memorial Hospital Andersonville",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 1339
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth GlenOaks",
+      "city": "Glendale Heights",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 3,
+      "estimatedOop": 1465
+    },
+    {
+      "name": "Humboldt Park Health",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 1,
+      "estimatedOop": 1558
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 1597
+    },
+    {
+      "name": "Holy Family Medical Center",
+      "city": "Des Plaines",
+      "state": "IL",
+      "distance": 24,
+      "estimatedOop": 1597
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 1597
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 1597
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 2043
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 2043
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:03:29.697Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/colonoscopy_60637.png"
+}

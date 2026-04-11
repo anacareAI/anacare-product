@@ -1,0 +1,165 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "wrist_repair",
+  "procedureName": "Forearm/Wrist Repair - Non-Surgical",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 250
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 495
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 549
+    },
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 593
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 639
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 639
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 639
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 639
+    },
+    {
+      "name": "AHMC Seton Medical Center",
+      "city": "Daly City",
+      "state": "CA",
+      "distance": 24,
+      "cmsStars": 1,
+      "estimatedOop": 742
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 761
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 761
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 765
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 765
+    },
+    {
+      "name": "Alameda Hospital",
+      "city": "Alameda",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 765
+    },
+    {
+      "name": "MarinHealth Medical Center",
+      "city": "Greenbrae",
+      "state": "CA",
+      "distance": 41,
+      "cmsStars": 4,
+      "estimatedOop": 947
+    },
+    {
+      "name": "Antioch Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 4,
+      "estimatedOop": 1102
+    },
+    {
+      "name": "South San Francisco Medical Center",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 1102
+    },
+    {
+      "name": "San Leandro Medical Center",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 18,
+      "cmsStars": 3,
+      "estimatedOop": 1102
+    },
+    {
+      "name": "San Jose Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 1102
+    },
+    {
+      "name": "Redwood City Medical Center",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 5,
+      "cmsStars": 4,
+      "estimatedOop": 1148
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:00:54.595Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/wrist_repair_94303.png"
+}

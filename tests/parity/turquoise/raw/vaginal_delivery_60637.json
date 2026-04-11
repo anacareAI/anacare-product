@@ -1,0 +1,170 @@
+{
+  "category": "Obstetrics",
+  "procedureId": "vaginal_delivery",
+  "procedureName": "Delivery - Vaginal",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Humboldt Park Health",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 1,
+      "estimatedOop": 1699
+    },
+    {
+      "name": "Franciscan Health Michigan City",
+      "city": "Michigan City",
+      "state": "IN",
+      "distance": 37,
+      "cmsStars": 3,
+      "estimatedOop": 4293
+    },
+    {
+      "name": "Silver Cross Hospital",
+      "city": "New Lenox",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 5232
+    },
+    {
+      "name": "Franciscan Health Olympia Fields",
+      "city": "Olympia Fields",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 2,
+      "estimatedOop": 7228
+    },
+    {
+      "name": "Franciscan Health Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 8350
+    },
+    {
+      "name": "Northwest Community Hospital",
+      "city": "Arlington Heights",
+      "state": "IL",
+      "distance": 29,
+      "cmsStars": 4,
+      "estimatedOop": 9503
+    },
+    {
+      "name": "Community Hospital",
+      "city": "Munster",
+      "state": "IN",
+      "distance": 16,
+      "cmsStars": 2,
+      "estimatedOop": 11406
+    },
+    {
+      "name": "Community Stroke and Rehabilitation Hospital",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 28,
+      "estimatedOop": 11406
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 12399
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 13107
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 13684
+    },
+    {
+      "name": "Methodist Hospitals - Northlake",
+      "city": "Gary",
+      "state": "IN",
+      "distance": 17,
+      "cmsStars": 1,
+      "estimatedOop": 14136
+    },
+    {
+      "name": "Methodist Hospitals - Southlake",
+      "city": "Merrillville",
+      "state": "IN",
+      "distance": 26,
+      "estimatedOop": 14136
+    },
+    {
+      "name": "St Catherine Hospital",
+      "city": "East Chicago",
+      "state": "IN",
+      "distance": 13,
+      "cmsStars": 3,
+      "estimatedOop": 14137
+    },
+    {
+      "name": "Saint Mary of Nazareth Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 10,
+      "cmsStars": 3,
+      "estimatedOop": 14793
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 14883
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 14920
+    },
+    {
+      "name": "Franciscan Health Dyer",
+      "city": "Dyer",
+      "state": "IN",
+      "distance": 20,
+      "cmsStars": 2,
+      "estimatedOop": 17365
+    },
+    {
+      "name": "Elmhurst Hospital",
+      "city": "Elmhurst",
+      "state": "IL",
+      "distance": 19,
+      "cmsStars": 4,
+      "estimatedOop": 18248
+    },
+    {
+      "name": "Edward Hospital",
+      "city": "Naperville",
+      "state": "IL",
+      "distance": 29,
+      "cmsStars": 5,
+      "estimatedOop": 18248
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:04:34.804Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/vaginal_delivery_60637.png"
+}

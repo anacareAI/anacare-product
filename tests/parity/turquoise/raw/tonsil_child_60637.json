@@ -1,0 +1,168 @@
+{
+  "category": "ENT",
+  "procedureId": "tonsil_child",
+  "procedureName": "Tonsil and Adenoid Removal (Child Under 12)",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 315
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 458
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 513
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 550
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 550
+    },
+    {
+      "name": "Franciscan Health Michigan City",
+      "city": "Michigan City",
+      "state": "IN",
+      "distance": 37,
+      "cmsStars": 3,
+      "estimatedOop": 3112
+    },
+    {
+      "name": "Franciscan Health Crown Point",
+      "city": "Crown Point",
+      "state": "IN",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 4111
+    },
+    {
+      "name": "Shriners Childrens - Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 5222
+    },
+    {
+      "name": "Franciscan Health Dyer",
+      "city": "Dyer",
+      "state": "IN",
+      "distance": 20,
+      "cmsStars": 2,
+      "estimatedOop": 6315
+    },
+    {
+      "name": "Northwest Health - Porter",
+      "city": "Valparaiso",
+      "state": "IN",
+      "distance": 32,
+      "cmsStars": 3,
+      "estimatedOop": 6819
+    },
+    {
+      "name": "Northwest Health - Portage",
+      "city": "Portage",
+      "state": "IN",
+      "distance": 27,
+      "estimatedOop": 6819
+    },
+    {
+      "name": "Uchicago Medicine AdventHealth GlenOaks",
+      "city": "Glendale Heights",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 3,
+      "estimatedOop": 7210
+    },
+    {
+      "name": "Mercy Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 38,
+      "cmsStars": 3,
+      "estimatedOop": 8016
+    },
+    {
+      "name": "Resurrection Medical Center",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 18,
+      "cmsStars": 4,
+      "estimatedOop": 8016
+    },
+    {
+      "name": "Saint Joseph Medical Center",
+      "city": "Joliet",
+      "state": "IL",
+      "distance": 33,
+      "cmsStars": 2,
+      "estimatedOop": 8016
+    },
+    {
+      "name": "Saint Mary Hospital - Kankakee",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 8016
+    },
+    {
+      "name": "Silver Cross Hospital",
+      "city": "New Lenox",
+      "state": "IL",
+      "distance": 26,
+      "cmsStars": 4,
+      "estimatedOop": 8207
+    },
+    {
+      "name": "Northwestern Medicine Central DuPage Hospital",
+      "city": "Winfield",
+      "state": "IL",
+      "distance": 30,
+      "cmsStars": 5,
+      "estimatedOop": 12578
+    },
+    {
+      "name": "Northwestern Medicine Delnor Hospital",
+      "city": "Geneva",
+      "state": "IL",
+      "distance": 39,
+      "cmsStars": 5,
+      "estimatedOop": 12715
+    },
+    {
+      "name": "Northwestern Medicine Huntley Hospital",
+      "city": "Huntley",
+      "state": "IL",
+      "distance": 50,
+      "estimatedOop": 12715
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:05:07.590Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/tonsil_child_60637.png"
+}

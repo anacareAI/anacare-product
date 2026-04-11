@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(node -e \"try { require\\(''''./frontend/src/components/PlanSelector.jsx''''\\) } catch\\(e\\) { console.log\\(e.message.slice\\(0,200\\)\\) }\")"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "category": "Diagnostic",
+  "procedureId": "breast_biopsy",
+  "procedureName": "Percutaneous Breast Biopsy",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Washington Hospital Healthcare System",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 1195
+    },
+    {
+      "name": "Watsonville Community Hospital",
+      "city": "Watsonville",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 1,
+      "estimatedOop": 1421
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 1716
+    },
+    {
+      "name": "UCSF Bakar Cancer Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1907
+    },
+    {
+      "name": "UCSF Medical Center at Mount Zion",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "estimatedOop": 1907
+    },
+    {
+      "name": "UCSF Medical Center at Mission Bay",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1907
+    },
+    {
+      "name": "UCSF Helen Diller Medical Center at Parnassus Heights",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 5,
+      "estimatedOop": 1907
+    },
+    {
+      "name": "UCSF Benioff Childrens Hospital San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "estimatedOop": 1907
+    },
+    {
+      "name": "AHMC Seton Medical Center Coastside",
+      "city": "Moss Beach",
+      "state": "CA",
+      "distance": 21,
+      "estimatedOop": 1947
+    },
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 1956
+    },
+    {
+      "name": "El Camino Health - Los Gatos Hospital",
+      "city": "Los Gatos",
+      "state": "CA",
+      "distance": 16,
+      "estimatedOop": 2084
+    },
+    {
+      "name": "El Camino Health - Mountain View Hospital",
+      "city": "Mountain View",
+      "state": "CA",
+      "distance": 6,
+      "cmsStars": 4,
+      "estimatedOop": 2084
+    },
+    {
+      "name": "UCSF Health Saint Francis Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 28,
+      "cmsStars": 3,
+      "estimatedOop": 2414
+    },
+    {
+      "name": "The Wilma Chan Highland Hospital Campus",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 25,
+      "cmsStars": 1,
+      "estimatedOop": 2519
+    },
+    {
+      "name": "San Leandro Hospital",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 19,
+      "estimatedOop": 2519
+    },
+    {
+      "name": "Sequoia Hospital",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 7,
+      "cmsStars": 5,
+      "estimatedOop": 3180
+    },
+    {
+      "name": "Zuckerberg San Francisco General Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 26,
+      "cmsStars": 2,
+      "estimatedOop": 3834
+    },
+    {
+      "name": "AHMC Seton Medical Center",
+      "city": "Daly City",
+      "state": "CA",
+      "distance": 24,
+      "cmsStars": 1,
+      "estimatedOop": 3887
+    },
+    {
+      "name": "UCSF Health St Marys Hospital",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29,
+      "cmsStars": 3,
+      "estimatedOop": 3942
+    },
+    {
+      "name": "Lucile Packard Childrens Hospital Stanford",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 2,
+      "estimatedOop": 3958
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:06:07.616Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/breast_biopsy_94303.png"
+}

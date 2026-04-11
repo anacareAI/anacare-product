@@ -1,0 +1,168 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "clavicle_repair",
+  "procedureName": "Clavicle/Scapula Repair - Non-Surgical",
+  "zip": "60637",
+  "providers": [
+    {
+      "name": "Mercyhealth Hospital and Physician Clinic - Crystal Lake",
+      "city": "Crystal Lake",
+      "state": "IL",
+      "distance": 47,
+      "estimatedOop": 154
+    },
+    {
+      "name": "Riverside Medical Center",
+      "city": "Kankakee",
+      "state": "IL",
+      "distance": 48,
+      "cmsStars": 4,
+      "estimatedOop": 330
+    },
+    {
+      "name": "MacNeal Hospital",
+      "city": "Berwyn",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 2,
+      "estimatedOop": 421
+    },
+    {
+      "name": "Northwest Health - La Porte",
+      "city": "La Porte",
+      "state": "IN",
+      "distance": 46,
+      "cmsStars": 3,
+      "estimatedOop": 508
+    },
+    {
+      "name": "Roseland Community Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 6,
+      "cmsStars": 1,
+      "estimatedOop": 577
+    },
+    {
+      "name": "Gottlieb Memorial Hospital",
+      "city": "Melrose Park",
+      "state": "IL",
+      "distance": 16,
+      "cmsStars": 3,
+      "estimatedOop": 584
+    },
+    {
+      "name": "University of Illinois Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 2,
+      "estimatedOop": 679
+    },
+    {
+      "name": "Loyola Medicine Childrens Hospital",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "estimatedOop": 707
+    },
+    {
+      "name": "Loyola University Medical Center",
+      "city": "Maywood",
+      "state": "IL",
+      "distance": 14,
+      "cmsStars": 3,
+      "estimatedOop": 707
+    },
+    {
+      "name": "John H Stroger Jr Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 8,
+      "cmsStars": 2,
+      "estimatedOop": 739
+    },
+    {
+      "name": "Provident Hospital of Cook County",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 2,
+      "estimatedOop": 739
+    },
+    {
+      "name": "Ascension Saint Joseph Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 1441
+    },
+    {
+      "name": "Saint Anthony Hospital",
+      "city": "Chicago",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 1501
+    },
+    {
+      "name": "Advocate Childrens Hospital - Park Ridge",
+      "city": "Park Ridge",
+      "state": "IL",
+      "distance": 22,
+      "estimatedOop": 1785
+    },
+    {
+      "name": "Advocate Sherman Hospital",
+      "city": "Elgin",
+      "state": "IL",
+      "distance": 43,
+      "cmsStars": 4,
+      "estimatedOop": 1785
+    },
+    {
+      "name": "Rush Copley Medical Center",
+      "city": "Aurora",
+      "state": "IL",
+      "distance": 35,
+      "cmsStars": 4,
+      "estimatedOop": 1790
+    },
+    {
+      "name": "OSF Little Company of Mary Medical Center",
+      "city": "Evergreen Park",
+      "state": "IL",
+      "distance": 7,
+      "cmsStars": 3,
+      "estimatedOop": 1794
+    },
+    {
+      "name": "St Catherine Hospital",
+      "city": "East Chicago",
+      "state": "IN",
+      "distance": 13,
+      "cmsStars": 3,
+      "estimatedOop": 1847
+    },
+    {
+      "name": "St Mary Medical Center",
+      "city": "Hobart",
+      "state": "IN",
+      "distance": 25,
+      "cmsStars": 4,
+      "estimatedOop": 1847
+    },
+    {
+      "name": "Community Hospital",
+      "city": "Munster",
+      "state": "IN",
+      "distance": 16,
+      "cmsStars": 2,
+      "estimatedOop": 1847
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:00:49.343Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/clavicle_repair_60637.png"
+}

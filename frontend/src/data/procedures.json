@@ -1,0 +1,191 @@
+{
+  "procedures": {
+    "ankle_arthro": {
+      "name": "Ankle Repair - Arthroscopic",
+      "id": "ankle_arthro"
+    },
+    "finger_fracture": {
+      "name": "Articular Finger Fracture Repair - Surgical",
+      "id": "finger_fracture"
+    },
+    "breast_mri": {
+      "name": "Breast MRI",
+      "id": "breast_mri"
+    },
+    "breast_ultrasound": {
+      "name": "Breast Ultrasound",
+      "id": "breast_ultrasound"
+    },
+    "bronchoscopy": {
+      "name": "Bronchoscopy",
+      "id": "bronchoscopy"
+    },
+    "carpal_tunnel": {
+      "name": "Carpal Tunnel Repair",
+      "id": "carpal_tunnel"
+    },
+    "cataract": {
+      "name": "Cataract Removal with Intraocular Lens Insertion",
+      "id": "cataract"
+    },
+    "clavicle_repair": {
+      "name": "Clavicle/Scapula Repair - Non-Surgical",
+      "id": "clavicle_repair"
+    },
+    "colonoscopy": {
+      "name": "Colonoscopy",
+      "id": "colonoscopy"
+    },
+    "colonoscopy_stoma": {
+      "name": "Colonoscopy via Stoma",
+      "id": "colonoscopy_stoma"
+    },
+    "ct": {
+      "name": "CT",
+      "id": "ct"
+    },
+    "ct_abdomen_pelvis": {
+      "name": "CT of Abdomen and Pelvis",
+      "id": "ct_abdomen_pelvis"
+    },
+    "cesarean": {
+      "name": "Delivery - Cesarean",
+      "id": "cesarean"
+    },
+    "vaginal_delivery": {
+      "name": "Delivery - Vaginal",
+      "id": "vaginal_delivery"
+    },
+    "egd": {
+      "name": "Esophagogastroduodenoscopy, Simple",
+      "id": "egd"
+    },
+    "fetal_mri": {
+      "name": "Fetal MRI",
+      "id": "fetal_mri"
+    },
+    "fna_biopsy": {
+      "name": "Fine Needle Aspiration Biopsy with Ultrasound Guidance",
+      "id": "fna_biopsy"
+    },
+    "wrist_repair": {
+      "name": "Forearm/Wrist Repair - Non-Surgical",
+      "id": "wrist_repair"
+    },
+    "hernia_lap": {
+      "name": "Hernia Repair - Laparoscopic",
+      "id": "hernia_lap"
+    },
+    "hernia_open": {
+      "name": "Hernia Repair - Non-Laparoscopic",
+      "id": "hernia_open"
+    },
+    "hip_arthro": {
+      "name": "Hip Repair - Arthroscopic",
+      "id": "hip_arthro"
+    },
+    "hysteroscopy": {
+      "name": "Hysteroscopy with Surgical Procedure",
+      "id": "hysteroscopy"
+    },
+    "knee_arthro": {
+      "name": "Knee Repair - Arthroscopic",
+      "id": "knee_arthro"
+    },
+    "lap_ovary": {
+      "name": "Laparoscopic Surgery of Ovaries and/or Fallopian Tubes",
+      "id": "lap_ovary"
+    },
+    "mammogram": {
+      "name": "Mammogram",
+      "id": "mammogram"
+    },
+    "mri_contrast": {
+      "name": "MRI with Contrast",
+      "id": "mri_contrast"
+    },
+    "mri_no_contrast": {
+      "name": "MRI without Contrast",
+      "id": "mri_no_contrast"
+    },
+    "breast_biopsy": {
+      "name": "Percutaneous Breast Biopsy",
+      "id": "breast_biopsy"
+    },
+    "shoulder_arthro": {
+      "name": "Shoulder Repair, Complex - Arthroscopic",
+      "id": "shoulder_arthro"
+    },
+    "tonsil_child": {
+      "name": "Tonsil and Adenoid Removal (Child Under 12)",
+      "id": "tonsil_child"
+    },
+    "tonsil": {
+      "name": "Tonsil and/or Adenoid Removal",
+      "id": "tonsil"
+    },
+    "ultrasound": {
+      "name": "Ultrasound",
+      "id": "ultrasound"
+    },
+    "xray": {
+      "name": "X-Ray",
+      "id": "xray"
+    }
+  },
+  "categories": {
+    "Musculoskeletal": [
+      "ankle_arthro",
+      "finger_fracture",
+      "clavicle_repair",
+      "wrist_repair",
+      "hip_arthro",
+      "knee_arthro",
+      "shoulder_arthro"
+    ],
+    "Radiology & Imaging": [
+      "breast_mri",
+      "breast_ultrasound",
+      "ct",
+      "ct_abdomen_pelvis",
+      "fetal_mri",
+      "mammogram",
+      "mri_contrast",
+      "mri_no_contrast",
+      "ultrasound",
+      "xray"
+    ],
+    "Gastrointestinal": [
+      "colonoscopy",
+      "colonoscopy_stoma",
+      "egd",
+      "hernia_lap",
+      "hernia_open"
+    ],
+    "Obstetrics": [
+      "cesarean",
+      "vaginal_delivery"
+    ],
+    "Reproductive": [
+      "hysteroscopy",
+      "lap_ovary"
+    ],
+    "ENT": [
+      "tonsil_child",
+      "tonsil"
+    ],
+    "Ophthalmology": [
+      "cataract"
+    ],
+    "Pulmonary": [
+      "bronchoscopy"
+    ],
+    "Neurology": [
+      "carpal_tunnel"
+    ],
+    "Diagnostic": [
+      "fna_biopsy",
+      "breast_biopsy"
+    ]
+  }
+}

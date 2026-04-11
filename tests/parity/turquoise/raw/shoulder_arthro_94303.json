@@ -1,0 +1,170 @@
+{
+  "category": "Musculoskeletal",
+  "procedureId": "shoulder_arthro",
+  "procedureName": "Shoulder Repair, Complex - Arthroscopic",
+  "zip": "94303",
+  "providers": [
+    {
+      "name": "Contra Costa Regional Medical Center",
+      "city": "Martinez",
+      "state": "CA",
+      "distance": 39,
+      "cmsStars": 3,
+      "estimatedOop": 1829
+    },
+    {
+      "name": "Stanford Health Care - ValleyCare",
+      "city": "Pleasanton",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 2788
+    },
+    {
+      "name": "Stanford University Hospital",
+      "city": "Palo Alto",
+      "state": "CA",
+      "distance": 2,
+      "cmsStars": 5,
+      "estimatedOop": 2788
+    },
+    {
+      "name": "San Mateo Medical Center",
+      "city": "San Mateo",
+      "state": "CA",
+      "distance": 11,
+      "cmsStars": 3,
+      "estimatedOop": 6594
+    },
+    {
+      "name": "St Rose Hospital",
+      "city": "Hayward",
+      "state": "CA",
+      "distance": 13,
+      "cmsStars": 2,
+      "estimatedOop": 9954
+    },
+    {
+      "name": "San Jose Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 23,
+      "cmsStars": 4,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Oakland Medical Center",
+      "city": "Oakland",
+      "state": "CA",
+      "distance": 27,
+      "cmsStars": 3,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Walnut Creek Medical Center",
+      "city": "Walnut Creek",
+      "state": "CA",
+      "distance": 31,
+      "cmsStars": 2,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Antioch Medical Center",
+      "city": "Antioch",
+      "state": "CA",
+      "distance": 40,
+      "cmsStars": 4,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Fremont Medical Center",
+      "city": "Fremont",
+      "state": "CA",
+      "distance": 12,
+      "cmsStars": 3,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Vallejo Medical Center",
+      "city": "Vallejo",
+      "state": "CA",
+      "distance": 48,
+      "cmsStars": 3,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "San Leandro Medical Center",
+      "city": "San Leandro",
+      "state": "CA",
+      "distance": 18,
+      "cmsStars": 3,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "South San Francisco Medical Center",
+      "city": "South San Francisco",
+      "state": "CA",
+      "distance": 22,
+      "cmsStars": 5,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Redwood City Medical Center",
+      "city": "Redwood City",
+      "state": "CA",
+      "distance": 5,
+      "cmsStars": 4,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "Santa Clara Medical Center",
+      "city": "Santa Clara",
+      "state": "CA",
+      "distance": 11,
+      "cmsStars": 4,
+      "estimatedOop": 13238
+    },
+    {
+      "name": "San Francisco Medical Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "distance": 29,
+      "cmsStars": 4,
+      "estimatedOop": 14030
+    },
+    {
+      "name": "San Rafael Medical Center",
+      "city": "San Rafael",
+      "state": "CA",
+      "distance": 45,
+      "cmsStars": 4,
+      "estimatedOop": 14030
+    },
+    {
+      "name": "Richmond Medical Center",
+      "city": "Richmond",
+      "state": "CA",
+      "distance": 36,
+      "estimatedOop": 14030
+    },
+    {
+      "name": "Santa Clara Valley Medical Center",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 14,
+      "cmsStars": 2,
+      "estimatedOop": 27432
+    },
+    {
+      "name": "OConnor Hospital",
+      "city": "San Jose",
+      "state": "CA",
+      "distance": 12,
+      "estimatedOop": 27432
+    }
+  ],
+  "packages": [],
+  "procedures": [],
+  "timestamp": "2026-03-31T06:01:26.229Z",
+  "screenshotPath": "/Users/joshuakao/anacare_product/tests/parity/screenshots/turquoise/shoulder_arthro_94303.png"
+}
