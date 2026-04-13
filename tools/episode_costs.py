@@ -541,13 +541,25 @@ def uses_operating_room_style_charges(episode: dict) -> bool:
         return False
     if explicit is True:
         return True
-    dn = (episode.get("display_name") or "").lower()
-    if "non-surgical" in dn:
-        return False
-    if (
-        not episode.get("preop")
-        and not episode.get("postop")
-        and not (episode.get("implant_cost") or 0)
-    ):
-        return False
-    return True
+
+    # Keep OR/anesthesia-style modeling only for clearly surgical episodes.
+    # Everything else (imaging, conservative management, many diagnostic/non-op procedures)
+    # uses outpatient-style facility+professional splits without OR/recovery/anesthesia lines.
+    surgical_proc_ids = {
+        "ankle_repair_arthroscopic",
+        "finger_fracture_repair",
+        "hip_repair_arthroscopic",
+        "knee_repair_arthroscopic",
+        "shoulder_repair_arthroscopic",
+        "hernia_repair_laparoscopic",
+        "hernia_repair_open",
+        "cesarean_delivery",
+        "hysteroscopy_surgical",
+        "laparoscopic_ovary_surgery",
+        "tonsil_adenoid_child",
+        "tonsil_adenoid_removal",
+        "cataract_removal",
+        "carpal_tunnel_repair",
+    }
+    proc_id = str(episode.get("proc_id") or "").strip()
+    return proc_id in surgical_proc_ids
