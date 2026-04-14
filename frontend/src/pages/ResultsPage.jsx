@@ -182,14 +182,16 @@ function cardCost(h, isCashPay, mode = 'negotiated') {
 }
 
 function tierLabel(tier) {
-  if (!tier) return 'Near midpoint'
-  return tier
+  const t = tier == null ? '' : String(tier)
+  if (!t) return 'Near midpoint'
+  return t
     .replaceAll('_', ' ')
     .replace(/\b\w/g, (m) => m.toUpperCase())
 }
 
 function tierColor(tier) {
-  switch (tier) {
+  const t = tier == null ? '' : String(tier)
+  switch (t) {
     case 'significantly_lower':
       return '#2d6a4f'
     case 'slightly_lower':
@@ -203,6 +205,11 @@ function tierColor(tier) {
     default:
       return 'var(--text-2)'
   }
+}
+
+/** API fields may be missing or wrongly shaped; never assume `.map` / spread is safe. */
+function asArray(v) {
+  return Array.isArray(v) ? v : []
 }
 
 function priceComparison(cost, midpoint) {
@@ -701,8 +708,9 @@ export default function ResultsPage({ theme, onToggleTheme }) {
 
   const baseList = useMemo(() => {
     if (!searchReady) return []
-    if (dataSource === 'api' && apiMeta?.hospitals?.length) {
-      return apiMeta.hospitals.map(normalizeApiHospital).filter(Boolean)
+    const rows = asArray(apiMeta?.hospitals)
+    if (dataSource === 'api' && rows.length) {
+      return rows.map(normalizeApiHospital).filter(Boolean)
     }
     return []
   }, [searchReady, dataSource, apiMeta])
@@ -821,15 +829,15 @@ export default function ResultsPage({ theme, onToggleTheme }) {
   }, [searchedSorted, chartLens])
 
   const cptCode = apiMeta?.cpt_code || null
-  const packageRows = apiMeta?.package_rows || []
-  const nsaTimeline = apiMeta?.nsa_timeline || []
+  const packageRows = asArray(apiMeta?.package_rows)
+  const nsaTimeline = asArray(apiMeta?.nsa_timeline)
   const usesOrCharges = apiMeta?.uses_operating_room_charges !== false
   const modeledPackagePrices = useMemo(() => {
     if (!packageRows.length || !selectedHospital) return []
     const neg = Number(negotiatedCost(selectedHospital) || 0)
-    const surgeryItems = episodeDetail?.episode?.surgery_items || []
-    const preopItems = episodeDetail?.episode?.preop_items || []
-    const postopItems = episodeDetail?.episode?.postop_items || []
+    const surgeryItems = asArray(episodeDetail?.episode?.surgery_items)
+    const preopItems = asArray(episodeDetail?.episode?.preop_items)
+    const postopItems = asArray(episodeDetail?.episode?.postop_items)
     const lineItems = [...preopItems, ...surgeryItems, ...postopItems]
 
     const explicitByCode = new Map()
@@ -1956,8 +1964,9 @@ export default function ResultsPage({ theme, onToggleTheme }) {
                       if (!chartStats.bins.length) return null
                       const maxBin = Math.max(...chartStats.bins)
                       const baseY = 165
+                      const xDenom = Math.max(1, chartStats.bins.length - 1)
                       const points = chartStats.bins.map((b, i) => {
-                        const x = (i / (chartStats.bins.length - 1)) * 520
+                        const x = (i / xDenom) * 520
                         const y = baseY - ((b / Math.max(1, maxBin)) * 120)
                         return `${x},${y}`
                       })
@@ -2755,7 +2764,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
                         </tr>
                       </thead>
                       <tbody>
-                        {[...(episodeDetail.episode.preop_items || []), ...(episodeDetail.episode.surgery_items || []), ...(episodeDetail.episode.postop_items || [])].map((row, idx) => (
+                        {[...asArray(episodeDetail.episode.preop_items), ...asArray(episodeDetail.episode.surgery_items), ...asArray(episodeDetail.episode.postop_items)].map((row, idx) => (
                           <tr key={`calc-${idx}-${row.name}`} style={{ borderTop: '1px solid var(--border)' }}>
                             <td style={{ padding: '8px 10px', color: 'var(--text)' }}>{row.name}</td>
                             <td style={{ padding: '8px 10px', textAlign: 'right', color: 'var(--text-2)' }}>{fmt(row.gross_cost)}</td>

@@ -31,8 +31,14 @@ class RouteErrorBoundary extends Component {
     return { error }
   }
 
+  componentDidCatch(error, errorInfo) {
+    console.error('[RouteErrorBoundary]', error, errorInfo?.componentStack)
+  }
+
   render() {
     if (this.state.error) {
+      const err = this.state.error
+      const showDetail = typeof import.meta !== 'undefined' && import.meta.env?.DEV
       return (
         <div
           style={{
@@ -54,6 +60,21 @@ class RouteErrorBoundary extends Component {
           <p style={{ fontSize: 14, lineHeight: 1.5, opacity: 0.9, marginBottom: 20 }}>
             Try a hard refresh. If the problem continues, return home and start a new search.
           </p>
+          {showDetail && err?.message && (
+            <pre
+              style={{
+                textAlign: 'left',
+                fontSize: 12,
+                color: 'var(--text-2, #4a5568)',
+                whiteSpace: 'pre-wrap',
+                wordBreak: 'break-word',
+                marginBottom: 16,
+                maxWidth: '100%',
+              }}
+            >
+              {String(err.message)}
+            </pre>
+          )}
           <button
             type="button"
             onClick={() => {
@@ -121,7 +142,6 @@ function AppShell() {
   return (
     <BrowserRouter>
       <Suspense fallback={pageFallback}>
-        <RouteErrorBoundary>
         <Routes>
           {/* Sign-in page (dedicated route) */}
           <Route
@@ -224,10 +244,16 @@ function AppShell() {
 
           {/* Main app pages — accessible to everyone (guest + signed-in) */}
           <Route path="/home" element={<HomePage theme={theme} onToggleTheme={toggle} />} />
-          <Route path="/results" element={<ResultsPage theme={theme} onToggleTheme={toggle} />} />
+          <Route
+            path="/results"
+            element={(
+              <RouteErrorBoundary>
+                <ResultsPage theme={theme} onToggleTheme={toggle} />
+              </RouteErrorBoundary>
+            )}
+          />
           <Route path="/feedback" element={<FeedbackPage theme={theme} onToggleTheme={toggle} />} />
         </Routes>
-        </RouteErrorBoundary>
       </Suspense>
     </BrowserRouter>
   )
