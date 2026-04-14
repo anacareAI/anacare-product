@@ -934,6 +934,25 @@ export default function ResultsPage({ theme, onToggleTheme }) {
     return () => { cancelled = true }
   }, [selectedHospital?.ccn, cptCode, isCashPay, plan.deductible_remaining, plan.oop_max_remaining, searchPlanId])
 
+  const handleHospitalSelectFromMap = useCallback((hospital) => {
+    const key = hospital?.id || hospital?.ccn
+    if (!key) return
+    const idx = sorted.findIndex((h) => (h.id || h.ccn) === key)
+    if (idx >= 0 && idx + 1 > visibleCount) {
+      setVisibleCount(idx + 1)
+    }
+    setActiveHospitalId(key)
+    setMapPreviewHospital(hospital)
+    setTimeout(() => {
+      const el = hospitalCardRefs.current[key]
+      if (el?.scrollIntoView) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }, 0)
+  }, [sorted, visibleCount])
+
+  const getMapCost = useCallback((h) => negotiatedCost(h), [])
+
   console.log('[ResultsPage render]', { activeProcedureId, searchReady, loading, dataSource, baseListLen: baseList.length, searchedSortedLen: searchedSorted.length, searchError })
   if (!activeProcedureId) {
     return (
@@ -1016,25 +1035,6 @@ export default function ResultsPage({ theme, onToggleTheme }) {
     }
     navigate('/results', { state: nextState })
   }
-
-  const handleHospitalSelectFromMap = useCallback((hospital) => {
-    const key = hospital?.id || hospital?.ccn
-    if (!key) return
-    const idx = sorted.findIndex((h) => (h.id || h.ccn) === key)
-    if (idx >= 0 && idx + 1 > visibleCount) {
-      setVisibleCount(idx + 1)
-    }
-    setActiveHospitalId(key)
-    setMapPreviewHospital(hospital)
-    setTimeout(() => {
-      const el = hospitalCardRefs.current[key]
-      if (el?.scrollIntoView) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' })
-      }
-    }, 0)
-  }, [sorted, visibleCount])
-
-  const getMapCost = useCallback((h) => negotiatedCost(h), [])
 
   return (
     <>
