@@ -261,13 +261,15 @@ function providerWebsite(hospital) {
 }
 
 function normalizeApiHospital(h) {
+  if (!h || typeof h !== 'object') return null
+  const neg = Number(h.negotiated_rate ?? h.negotiated_rate_total ?? 0) || 0 // tolerate null rates from API
   return {
     ...h,
     id: h.ccn,
     price: {
       cash: h.cash_price,
       negotiated: h.negotiated_rate,
-      gross: Math.round(h.negotiated_rate * 1.12),
+      gross: Math.round(neg * 1.12),
       implant: 0,
     },
     estimatedOOP: h.estimated_oop,
@@ -704,17 +706,25 @@ export default function ResultsPage({ theme, onToggleTheme }) {
   const baseList = useMemo(() => {
     if (!searchReady) return []
     if (dataSource === 'api' && apiMeta?.hospitals?.length) {
-      return apiMeta.hospitals.map(normalizeApiHospital)
+      return apiMeta.hospitals.map(normalizeApiHospital).filter(Boolean)
     }
     return []
   }, [searchReady, dataSource, apiMeta])
 
+  // Only after a real API attempt returned zero rows — not when search was skipped (missing ZIP/coords).
   useEffect(() => {
-    if (searchReady && !loading && baseList.length === 0 && !searchError && activeProcedureId) {
+    if (
+      searchReady &&
+      !loading &&
+      baseList.length === 0 &&
+      !searchError &&
+      activeProcedureId &&
+      dataSource === 'api'
+    ) {
       setModalRadius(radiusMiles)
       setNoResultsModalOpen(true)
     }
-  }, [searchReady, loading, baseList.length, searchError, activeProcedureId])
+  }, [searchReady, loading, baseList.length, searchError, activeProcedureId, dataSource, radiusMiles])
 
   // Apply filters
   const filtered = useMemo(() => {
@@ -2341,10 +2351,49 @@ export default function ResultsPage({ theme, onToggleTheme }) {
           </div>
         )}
 
-        {searchedSorted.length === 0 && searchReady && !loading && (
-          <div style={{ textAlign: 'center', padding: 40, color: 'var(--text-3)' }}>
-            <p style={{ fontSize: 16, marginBottom: 8 }}>No providers found matching your filters/search.</p>
-            <p style={{ fontSize: 13 }}>Try adjusting your distance, quality, or price filters.</p>
+        {searchedSorted.length === 0 && searchReady && !loading && !searchError && (
+          <div
+            role="status"
+            style={{
+              textAlign: 'center',
+              padding: 40,
+              color: 'var(--text-2)',
+              background: 'var(--surface)',
+              border: '1px solid var(--border)',
+              borderRadius: 'var(--radius-lg)',
+              maxWidth: 520,
+              margin: '0 auto',
+            }}
+          >
+            {dataSource == null && activeProcedureId ? (
+              <>
+                <p style={{ fontSize: 16, marginBottom: 8, fontWeight: 600, color: 'var(--text)' }}>
+                  Add a location to load hospital prices
+                </p>
+                <p style={{ fontSize: 14, lineHeight: 1.55, marginBottom: 16 }}>
+                  Enter a valid 5-digit ZIP in the bar above (we&apos;ll verify it), or use{' '}
+                  <strong>Use current location</strong>. Then results will appear here automatically.
+                </p>
+              </>
+            ) : dataSource === 'api' && baseList.length === 0 ? (
+              <>
+                <p style={{ fontSize: 16, marginBottom: 8, fontWeight: 600, color: 'var(--text)' }}>
+                  No hospitals found in this area
+                </p>
+                <p style={{ fontSize: 14, lineHeight: 1.55 }}>
+                  Try a larger search radius using the chips above, or pick a different ZIP.
+                </p>
+              </>
+            ) : (
+              <>
+                <p style={{ fontSize: 16, marginBottom: 8, fontWeight: 600, color: 'var(--text)' }}>
+                  No providers match your filters or search
+                </p>
+                <p style={{ fontSize: 14, lineHeight: 1.55 }}>
+                  Try widening distance, lowering the quality filter, or clearing the hospital name search.
+                </p>
+              </>
+            )}
           </div>
         )}
       </div>
