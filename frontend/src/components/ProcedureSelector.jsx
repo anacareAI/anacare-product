@@ -59,7 +59,10 @@ export default function ProcedureSelector({ onChange }) {
   const containerRef = useRef(null);
   const inputRef = useRef(null);
   const onChangeRef = useRef(onChange);
-  onChangeRef.current = onChange;
+
+  useEffect(() => {
+    onChangeRef.current = onChange;
+  }, [onChange]);
 
   useEffect(() => {
     if (typeof onChangeRef.current === "function") {

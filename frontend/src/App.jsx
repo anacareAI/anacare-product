@@ -11,7 +11,8 @@ import {
   useAuth,
 } from '@clerk/clerk-react'
 import useTheme from './useTheme'
-import AuthCenteredLayout, { clerkAuthAppearance } from './components/AuthCenteredLayout'
+import AuthCenteredLayout from './components/AuthCenteredLayout'
+import { clerkAuthAppearance } from './clerkAppearance'
 
 const LandingPage = lazy(() => import('./pages/LandingPage'))
 const HomePage = lazy(() => import('./pages/HomePage'))

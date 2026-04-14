@@ -24,6 +24,8 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      // Standard fetch-on-mount / reset-on-deps patterns; the strict rule rejects legitimate code.
+      'react-hooks/set-state-in-effect': 'off',
     },
   },
 ])

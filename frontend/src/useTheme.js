@@ -5,7 +5,9 @@ function getInitialTheme() {
   try {
     const stored = localStorage.getItem('anacare-theme-v2')
     if (stored === 'light' || stored === 'dark') return stored
-  } catch (_) {}
+  } catch {
+    /* localStorage unavailable */
+  }
   return 'light'
 }
 
@@ -17,7 +19,9 @@ export default function useTheme() {
     try {
       localStorage.setItem('anacare-theme-v2', theme)
       localStorage.removeItem('anacare-theme')
-    } catch (_) {}
+    } catch {
+      /* localStorage unavailable */
+    }
   }, [theme])
 
   const toggle = useCallback(() => {

@@ -523,7 +523,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
     }
   }, [])
 
-  const useCurrentLocation = useCallback(() => {
+  const requestBrowserLocation = useCallback(() => {
     if (!navigator.geolocation) return
     setGeoLoading(true)
     navigator.geolocation.getCurrentPosition(
@@ -610,11 +610,9 @@ export default function ResultsPage({ theme, onToggleTheme }) {
       const resolvedZip = String(searchLocation.zip || stateZip || '').replace(/\D/g, '').slice(0, 5)
       const zipOk = resolvedZip.length === 5
       const hasCoords = queryLat != null && queryLng != null
-      console.log('[runSearch]', { activeProcedureId, queryLat, queryLng, resolvedZip, zipOk, hasCoords, stateZip, searchLocationZip: searchLocation.zip })
       // Backend geocodes ZIP when lat/lng are omitted; the client previously skipped the POST
       // until zippopotam finished, which left /results empty with searchReady true and no rows.
       if (!activeProcedureId || (!hasCoords && !zipOk)) {
-        console.log('[runSearch] SKIPPING search:', { activeProcedureId, hasCoords, zipOk })
         if (cancelled) return
         setDataSource(null)
         setApiMeta(null)
@@ -661,20 +659,18 @@ export default function ResultsPage({ theme, onToggleTheme }) {
           throw new Error(detail)
         }
         const data = await res.json()
-        console.log('[runSearch] API response:', { status: res.status, total_count: data.total_count, hospitalCount: data.hospitals?.length })
         if (cancelled) return
         if (data.total_count > 0) {
           setApiMeta(data)
           setDataSource('api')
           setSearchError('')
         } else {
-          console.log('[runSearch] 0 results from API')
           setApiMeta(null)
           setDataSource('api')
           setSearchError('')
         }
       } catch (err) {
-        console.error('[runSearch] ERROR:', err)
+        if (import.meta.env.DEV) console.error('[runSearch]', err)
         if (cancelled) return
         setApiMeta(null)
         setDataSource(null)
@@ -963,7 +959,6 @@ export default function ResultsPage({ theme, onToggleTheme }) {
 
   const getMapCost = useCallback((h) => negotiatedCost(h), [])
 
-  console.log('[ResultsPage render]', { activeProcedureId, searchReady, loading, dataSource, baseListLen: baseList.length, searchedSortedLen: searchedSorted.length, searchError })
   if (!activeProcedureId) {
     return (
       <>
@@ -1035,7 +1030,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
         coinsurance_pct: selectedInsurance?.coinsurance_pct ?? 0.20,
         pc_copay: selectedInsurance?.pc_copay ?? 0,
         isCashPay: selectedInsurance?.isCashPay ?? false,
-        benefits_enabled: !Boolean(selectedInsurance?.isCashPay),
+        benefits_enabled: selectedInsurance?.isCashPay !== true,
       },
     }
     try {
@@ -1612,7 +1607,7 @@ export default function ResultsPage({ theme, onToggleTheme }) {
                 disabled={geoLoading}
                 onClick={(e) => {
                   e.stopPropagation()
-                  useCurrentLocation()
+                  requestBrowserLocation()
                 }}
                 style={{
                   alignSelf: 'flex-start',

@@ -9,7 +9,10 @@ export default function LocationInput({ onChange }) {
   const [isFocused, setIsFocused] = useState(false)
   const zipRequestId = useRef(0)
   const onChangeRef = useRef(onChange)
-  onChangeRef.current = onChange
+
+  useEffect(() => {
+    onChangeRef.current = onChange
+  }, [onChange])
 
   useEffect(() => {
     if (typeof onChangeRef.current !== 'function') return
